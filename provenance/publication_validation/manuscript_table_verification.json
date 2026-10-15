@@ -1,0 +1,3600 @@
+{
+  "passed": true,
+  "numeric_cells_checked": 398,
+  "tables": [
+    "S3a",
+    "S3b",
+    "S4",
+    "S5a",
+    "S5b",
+    "S6a",
+    "S6b",
+    "S7"
+  ],
+  "descriptive_tables": "S1 dates, S2 settings and S8 definitions are extracted verbatim with their original metadata sources, rather than treated as inferential result cells.",
+  "failures": [],
+  "checks": [
+    {
+      "table": "S3a",
+      "row": 0,
+      "field": "IoU",
+      "manuscript": 0.4569,
+      "rounded_source": 0.4569,
+      "full_precision": 0.4569469236030393,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 0,
+      "field": "FN (km\u00b2)",
+      "manuscript": 210.79,
+      "rounded_source": 210.79,
+      "full_precision": 210.7876075106659,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 0,
+      "field": "FP (km\u00b2)",
+      "manuscript": 416.25,
+      "rounded_source": 416.25,
+      "full_precision": 416.2457768197327,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 0,
+      "field": "Brier",
+      "manuscript": 0.02012,
+      "rounded_source": 0.02012,
+      "full_precision": 0.0201208373271461,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 0,
+      "field": "C0.1",
+      "manuscript": 0.0619,
+      "rounded_source": 0.0619,
+      "full_precision": 0.0619077934242778,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 1,
+      "field": "IoU",
+      "manuscript": 0.6208,
+      "rounded_source": 0.6208,
+      "full_precision": 0.6208309934833199,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 1,
+      "field": "FN (km\u00b2)",
+      "manuscript": 218.81,
+      "rounded_source": 218.81,
+      "full_precision": 218.81285046256252,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 1,
+      "field": "FP (km\u00b2)",
+      "manuscript": 98.52,
+      "rounded_source": 98.52,
+      "full_precision": 98.52142650743104,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 1,
+      "field": "Brier",
+      "manuscript": 0.01103,
+      "rounded_source": 0.01103,
+      "full_precision": 0.0110347050899199,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 1,
+      "field": "C0.1",
+      "manuscript": 0.0952,
+      "rounded_source": 0.0952,
+      "full_precision": 0.0952381475347246,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 2,
+      "field": "IoU",
+      "manuscript": 0.5071,
+      "rounded_source": 0.5071,
+      "full_precision": 0.5071314427482854,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 2,
+      "field": "FN (km\u00b2)",
+      "manuscript": 282.63,
+      "rounded_source": 282.63,
+      "full_precision": 282.6280936488876,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 2,
+      "field": "FP (km\u00b2)",
+      "manuscript": 160.32,
+      "rounded_source": 160.32,
+      "full_precision": 160.32439860337067,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 2,
+      "field": "Brier",
+      "manuscript": 0.01514,
+      "rounded_source": 0.01514,
+      "full_precision": 0.0151366318550862,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 2,
+      "field": "C0.1",
+      "manuscript": 0.103,
+      "rounded_source": 0.103,
+      "full_precision": 0.1030182604383683,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 3,
+      "field": "IoU",
+      "manuscript": 0.0439,
+      "rounded_source": 0.0439,
+      "full_precision": 0.043921041580423,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 3,
+      "field": "FN (km\u00b2)",
+      "manuscript": 699.02,
+      "rounded_source": 699.02,
+      "full_precision": 699.0167331996307,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 3,
+      "field": "FP (km\u00b2)",
+      "manuscript": 158.26,
+      "rounded_source": 158.26,
+      "full_precision": 158.26102829449462,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 3,
+      "field": "Brier",
+      "manuscript": 0.03814,
+      "rounded_source": 0.03814,
+      "full_precision": 0.0381362237235682,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 3,
+      "field": "C0.1",
+      "manuscript": 0.3667,
+      "rounded_source": 0.3667,
+      "full_precision": 0.3666766837627751,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 4,
+      "field": "IoU",
+      "manuscript": 0.6252,
+      "rounded_source": 0.6252,
+      "full_precision": 0.6251580288115827,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 4,
+      "field": "FN (km\u00b2)",
+      "manuscript": 210.51,
+      "rounded_source": 210.51,
+      "full_precision": 210.511185636055,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 4,
+      "field": "FP (km\u00b2)",
+      "manuscript": 106.01,
+      "rounded_source": 106.01,
+      "full_precision": 106.00798265621184,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 4,
+      "field": "Brier",
+      "manuscript": 0.01106,
+      "rounded_source": 0.01106,
+      "full_precision": 0.0110602183336485,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 4,
+      "field": "C0.1",
+      "manuscript": 0.0823,
+      "rounded_source": 0.0823,
+      "full_precision": 0.0823352047828075,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 5,
+      "field": "IoU",
+      "manuscript": 0.6219,
+      "rounded_source": 0.6219,
+      "full_precision": 0.6219006252257301,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 5,
+      "field": "FN (km\u00b2)",
+      "manuscript": 208.13,
+      "rounded_source": 208.13,
+      "full_precision": 208.12863765162655,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 5,
+      "field": "FP (km\u00b2)",
+      "manuscript": 114.26,
+      "rounded_source": 114.26,
+      "full_precision": 114.2619094513626,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 5,
+      "field": "Brier",
+      "manuscript": 0.01116,
+      "rounded_source": 0.01116,
+      "full_precision": 0.0111559073892763,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 5,
+      "field": "C0.1",
+      "manuscript": 0.0909,
+      "rounded_source": 0.0909,
+      "full_precision": 0.0908670774998365,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 6,
+      "field": "IoU",
+      "manuscript": 0.5628,
+      "rounded_source": 0.5628,
+      "full_precision": 0.562797497983709,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 6,
+      "field": "FN (km\u00b2)",
+      "manuscript": 155.92,
+      "rounded_source": 155.92,
+      "full_precision": 155.92155597297668,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 6,
+      "field": "FP (km\u00b2)",
+      "manuscript": 296.57,
+      "rounded_source": 296.57,
+      "full_precision": 296.5690568047104,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 6,
+      "field": "Brier",
+      "manuscript": 0.01542,
+      "rounded_source": 0.01542,
+      "full_precision": 0.0154154983748623,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 6,
+      "field": "C0.1",
+      "manuscript": 0.0626,
+      "rounded_source": 0.0626,
+      "full_precision": 0.0626068899821768,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 7,
+      "field": "IoU",
+      "manuscript": 0.6252,
+      "rounded_source": 0.6252,
+      "full_precision": 0.6252385219540804,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 7,
+      "field": "FN (km\u00b2)",
+      "manuscript": 187.56,
+      "rounded_source": 187.56,
+      "full_precision": 187.55783182868197,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 7,
+      "field": "FP (km\u00b2)",
+      "manuscript": 142.61,
+      "rounded_source": 142.61,
+      "full_precision": 142.61062954099273,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 7,
+      "field": "Brier",
+      "manuscript": 0.0131,
+      "rounded_source": 0.0131,
+      "full_precision": 0.0130976459271299,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 7,
+      "field": "C0.1",
+      "manuscript": 0.0642,
+      "rounded_source": 0.0642,
+      "full_precision": 0.0641738246326022,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 8,
+      "field": "IoU",
+      "manuscript": 0.6252,
+      "rounded_source": 0.6252,
+      "full_precision": 0.6252376988881111,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 8,
+      "field": "FN (km\u00b2)",
+      "manuscript": 187.56,
+      "rounded_source": 187.56,
+      "full_precision": 187.55922121702577,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 8,
+      "field": "FP (km\u00b2)",
+      "manuscript": 142.61,
+      "rounded_source": 142.61,
+      "full_precision": 142.6095671301346,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 8,
+      "field": "Brier",
+      "manuscript": 0.0117,
+      "rounded_source": 0.0117,
+      "full_precision": 0.0117007721127275,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 8,
+      "field": "C0.1",
+      "manuscript": 0.1031,
+      "rounded_source": 0.1031,
+      "full_precision": 0.1030959153681989,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 9,
+      "field": "IoU",
+      "manuscript": 0.6252,
+      "rounded_source": 0.6252,
+      "full_precision": 0.6252384938168905,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 9,
+      "field": "FN (km\u00b2)",
+      "manuscript": 187.56,
+      "rounded_source": 187.56,
+      "full_precision": 187.55789759430692,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 9,
+      "field": "FP (km\u00b2)",
+      "manuscript": 142.61,
+      "rounded_source": 142.61,
+      "full_precision": 142.61056400361633,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 9,
+      "field": "Brier",
+      "manuscript": 0.01142,
+      "rounded_source": 0.01142,
+      "full_precision": 0.0114246204732181,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 9,
+      "field": "C0.1",
+      "manuscript": 0.0762,
+      "rounded_source": 0.0762,
+      "full_precision": 0.0761516577674128,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 10,
+      "field": "IoU",
+      "manuscript": 0.5804,
+      "rounded_source": 0.5804,
+      "full_precision": 0.5803892171950281,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 10,
+      "field": "FN (km\u00b2)",
+      "manuscript": 266.73,
+      "rounded_source": 266.73,
+      "full_precision": 266.7286469691315,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 10,
+      "field": "FP (km\u00b2)",
+      "manuscript": 74.28,
+      "rounded_source": 74.28,
+      "full_precision": 74.28036815807343,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 10,
+      "field": "Brier",
+      "manuscript": 0.01218,
+      "rounded_source": 0.01218,
+      "full_precision": 0.0121765157045116,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 10,
+      "field": "C0.1",
+      "manuscript": 0.1103,
+      "rounded_source": 0.1103,
+      "full_precision": 0.1102998645928379,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 11,
+      "field": "IoU",
+      "manuscript": 0.5238,
+      "rounded_source": 0.5238,
+      "full_precision": 0.5238227378963469,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 11,
+      "field": "FN (km\u00b2)",
+      "manuscript": 290.4,
+      "rounded_source": 290.4,
+      "full_precision": 290.39984671824647,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 11,
+      "field": "FP (km\u00b2)",
+      "manuscript": 116.85,
+      "rounded_source": 116.85,
+      "full_precision": 116.85051230903626,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 11,
+      "field": "Brier",
+      "manuscript": 0.01489,
+      "rounded_source": 0.01489,
+      "full_precision": 0.0148857700493516,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 11,
+      "field": "C0.1",
+      "manuscript": 0.1154,
+      "rounded_source": 0.1154,
+      "full_precision": 0.1153747062605134,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 12,
+      "field": "IoU",
+      "manuscript": 0.6378,
+      "rounded_source": 0.6378,
+      "full_precision": 0.6377670570240422,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 12,
+      "field": "FN (km\u00b2)",
+      "manuscript": 202.24,
+      "rounded_source": 202.24,
+      "full_precision": 202.2367659202957,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 12,
+      "field": "FP (km\u00b2)",
+      "manuscript": 102.29,
+      "rounded_source": 102.29,
+      "full_precision": 102.28760951489258,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 12,
+      "field": "Brier",
+      "manuscript": 0.01083,
+      "rounded_source": 0.01083,
+      "full_precision": 0.0108306920438711,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 12,
+      "field": "C0.1",
+      "manuscript": 0.0791,
+      "rounded_source": 0.0791,
+      "full_precision": 0.0790631872293853,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 13,
+      "field": "IoU",
+      "manuscript": 0.4569,
+      "rounded_source": 0.4569,
+      "full_precision": 0.4569469236030393,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 13,
+      "field": "FN (km\u00b2)",
+      "manuscript": 210.79,
+      "rounded_source": 210.79,
+      "full_precision": 210.7876075106659,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 13,
+      "field": "FP (km\u00b2)",
+      "manuscript": 416.25,
+      "rounded_source": 416.25,
+      "full_precision": 416.2457768197327,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 13,
+      "field": "Brier",
+      "manuscript": 0.02107,
+      "rounded_source": 0.02107,
+      "full_precision": 0.0210654334504359,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 13,
+      "field": "C0.1",
+      "manuscript": 0.0376,
+      "rounded_source": 0.0376,
+      "full_precision": 0.0375666475699267,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 14,
+      "field": "IoU",
+      "manuscript": 0.6208,
+      "rounded_source": 0.6208,
+      "full_precision": 0.6208309934833199,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 14,
+      "field": "FN (km\u00b2)",
+      "manuscript": 218.81,
+      "rounded_source": 218.81,
+      "full_precision": 218.81285046256252,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 14,
+      "field": "FP (km\u00b2)",
+      "manuscript": 98.52,
+      "rounded_source": 98.52,
+      "full_precision": 98.52142650743104,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 14,
+      "field": "Brier",
+      "manuscript": 0.01115,
+      "rounded_source": 0.01115,
+      "full_precision": 0.0111474941952718,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 14,
+      "field": "C0.1",
+      "manuscript": 0.0532,
+      "rounded_source": 0.0532,
+      "full_precision": 0.0532494290825171,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 15,
+      "field": "IoU",
+      "manuscript": 0.6252,
+      "rounded_source": 0.6252,
+      "full_precision": 0.6251580288115827,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 15,
+      "field": "FN (km\u00b2)",
+      "manuscript": 210.51,
+      "rounded_source": 210.51,
+      "full_precision": 210.511185636055,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 15,
+      "field": "FP (km\u00b2)",
+      "manuscript": 106.01,
+      "rounded_source": 106.01,
+      "full_precision": 106.00798265621184,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 15,
+      "field": "Brier",
+      "manuscript": 0.01134,
+      "rounded_source": 0.01134,
+      "full_precision": 0.0113380385788189,
+      "passed": true
+    },
+    {
+      "table": "S3a",
+      "row": 15,
+      "field": "C0.1",
+      "manuscript": 0.0563,
+      "rounded_source": 0.0563,
+      "full_precision": 0.0562677689435456,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 0,
+      "field": "IoU",
+      "manuscript": 0.38,
+      "rounded_source": 0.38,
+      "full_precision": 0.3799532187955101,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 0,
+      "field": "FN (km\u00b2)",
+      "manuscript": 100.79,
+      "rounded_source": 100.79,
+      "full_precision": 100.78985887218856,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 0,
+      "field": "FP (km\u00b2)",
+      "manuscript": 494.33,
+      "rounded_source": 494.33,
+      "full_precision": 494.3321279027748,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 0,
+      "field": "Brier",
+      "manuscript": 0.0333,
+      "rounded_source": 0.0333,
+      "full_precision": 0.0333004259588639,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 0,
+      "field": "C0.1",
+      "manuscript": 0.0539,
+      "rounded_source": 0.0539,
+      "full_precision": 0.0538574748049112,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 1,
+      "field": "IoU",
+      "manuscript": 0.6428,
+      "rounded_source": 0.6428,
+      "full_precision": 0.64276105944798,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 1,
+      "field": "FN (km\u00b2)",
+      "manuscript": 92.11,
+      "rounded_source": 92.11,
+      "full_precision": 92.1051934555168,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 1,
+      "field": "FP (km\u00b2)",
+      "manuscript": 115.41,
+      "rounded_source": 115.41,
+      "full_precision": 115.40630960919952,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 1,
+      "field": "Brier",
+      "manuscript": 0.01309,
+      "rounded_source": 0.01309,
+      "full_precision": 0.013091064152011,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 1,
+      "field": "C0.1",
+      "manuscript": 0.0889,
+      "rounded_source": 0.0889,
+      "full_precision": 0.0889066991004604,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 2,
+      "field": "IoU",
+      "manuscript": 0.4014,
+      "rounded_source": 0.4014,
+      "full_precision": 0.4014468074937222,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 2,
+      "field": "FN (km\u00b2)",
+      "manuscript": 132.6,
+      "rounded_source": 132.6,
+      "full_precision": 132.59970033368302,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 2,
+      "field": "FP (km\u00b2)",
+      "manuscript": 363.71,
+      "rounded_source": 363.71,
+      "full_precision": 363.7060410418701,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 2,
+      "field": "Brier",
+      "manuscript": 0.02934,
+      "rounded_source": 0.02934,
+      "full_precision": 0.0293411038738182,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 2,
+      "field": "C0.1",
+      "manuscript": 0.0896,
+      "rounded_source": 0.0896,
+      "full_precision": 0.0895891125345025,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 3,
+      "field": "IoU",
+      "manuscript": 0.0549,
+      "rounded_source": 0.0549,
+      "full_precision": 0.0549461212297771,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 3,
+      "field": "FN (km\u00b2)",
+      "manuscript": 368.63,
+      "rounded_source": 368.63,
+      "full_precision": 368.6318233860168,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 3,
+      "field": "FP (km\u00b2)",
+      "manuscript": 1296.94,
+      "rounded_source": 1296.94,
+      "full_precision": 1296.944142692463,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 3,
+      "field": "Brier",
+      "manuscript": 0.10818,
+      "rounded_source": 0.10818,
+      "full_precision": 0.1081814813710865,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 3,
+      "field": "C0.1",
+      "manuscript": 0.232,
+      "rounded_source": 0.232,
+      "full_precision": 0.2319591793186958,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 4,
+      "field": "IoU",
+      "manuscript": 0.6564,
+      "rounded_source": 0.6564,
+      "full_precision": 0.6563500560806398,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 4,
+      "field": "FN (km\u00b2)",
+      "manuscript": 90.99,
+      "rounded_source": 90.99,
+      "full_precision": 90.98582213166046,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 4,
+      "field": "FP (km\u00b2)",
+      "manuscript": 105.09,
+      "rounded_source": 105.09,
+      "full_precision": 105.08536925535584,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 4,
+      "field": "Brier",
+      "manuscript": 0.01241,
+      "rounded_source": 0.01241,
+      "full_precision": 0.01241037841001,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 4,
+      "field": "C0.1",
+      "manuscript": 0.0825,
+      "rounded_source": 0.0825,
+      "full_precision": 0.0825274091475287,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 5,
+      "field": "IoU",
+      "manuscript": 0.6593,
+      "rounded_source": 0.6593,
+      "full_precision": 0.6592673208771146,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 5,
+      "field": "FN (km\u00b2)",
+      "manuscript": 92.88,
+      "rounded_source": 92.88,
+      "full_precision": 92.88031398636244,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 5,
+      "field": "FP (km\u00b2)",
+      "manuscript": 99.69,
+      "rounded_source": 99.69,
+      "full_precision": 99.6870251574936,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 5,
+      "field": "Brier",
+      "manuscript": 0.01192,
+      "rounded_source": 0.01192,
+      "full_precision": 0.0119212399061015,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 5,
+      "field": "C0.1",
+      "manuscript": 0.0863,
+      "rounded_source": 0.0863,
+      "full_precision": 0.0862740099341001,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 6,
+      "field": "IoU",
+      "manuscript": 0.2102,
+      "rounded_source": 0.2102,
+      "full_precision": 0.2101977757766288,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 6,
+      "field": "FN (km\u00b2)",
+      "manuscript": 78.16,
+      "rounded_source": 78.16,
+      "full_precision": 78.16383580473328,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 6,
+      "field": "FP (km\u00b2)",
+      "manuscript": 1377.11,
+      "rounded_source": 1377.11,
+      "full_precision": 1377.1083321830558,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 6,
+      "field": "Brier",
+      "manuscript": 0.09093,
+      "rounded_source": 0.09093,
+      "full_precision": 0.0909276258780593,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 6,
+      "field": "C0.1",
+      "manuscript": 0.0714,
+      "rounded_source": 0.0714,
+      "full_precision": 0.0714036744739266,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 7,
+      "field": "IoU",
+      "manuscript": 0.6554,
+      "rounded_source": 0.6554,
+      "full_precision": 0.6554148505819901,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 7,
+      "field": "FN (km\u00b2)",
+      "manuscript": 83.64,
+      "rounded_source": 83.64,
+      "full_precision": 83.64091553533936,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 7,
+      "field": "FP (km\u00b2)",
+      "manuscript": 117.11,
+      "rounded_source": 117.11,
+      "full_precision": 117.10598910577392,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 7,
+      "field": "Brier",
+      "manuscript": 0.01682,
+      "rounded_source": 0.01682,
+      "full_precision": 0.0168207912625909,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 7,
+      "field": "C0.1",
+      "manuscript": 0.0494,
+      "rounded_source": 0.0494,
+      "full_precision": 0.0493958084772294,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 8,
+      "field": "IoU",
+      "manuscript": 0.6554,
+      "rounded_source": 0.6554,
+      "full_precision": 0.655415050858068,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 8,
+      "field": "FN (km\u00b2)",
+      "manuscript": 83.64,
+      "rounded_source": 83.64,
+      "full_precision": 83.64217894927215,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 8,
+      "field": "FP (km\u00b2)",
+      "manuscript": 117.1,
+      "rounded_source": 117.1,
+      "full_precision": 117.10388343259812,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 8,
+      "field": "Brier",
+      "manuscript": 0.013,
+      "rounded_source": 0.013,
+      "full_precision": 0.0129972413521897,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 8,
+      "field": "C0.1",
+      "manuscript": 0.098,
+      "rounded_source": 0.098,
+      "full_precision": 0.0980160474420768,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 9,
+      "field": "IoU",
+      "manuscript": 0.6554,
+      "rounded_source": 0.6554,
+      "full_precision": 0.6554149179401273,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 9,
+      "field": "FN (km\u00b2)",
+      "manuscript": 83.64,
+      "rounded_source": 83.64,
+      "full_precision": 83.64091553533936,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 9,
+      "field": "FP (km\u00b2)",
+      "manuscript": 117.11,
+      "rounded_source": 117.11,
+      "full_precision": 117.10592923345948,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 9,
+      "field": "Brier",
+      "manuscript": 0.01228,
+      "rounded_source": 0.01228,
+      "full_precision": 0.0122780099683523,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 9,
+      "field": "C0.1",
+      "manuscript": 0.0692,
+      "rounded_source": 0.0692,
+      "full_precision": 0.0691976405055818,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 10,
+      "field": "IoU",
+      "manuscript": 0.3964,
+      "rounded_source": 0.3964,
+      "full_precision": 0.3963518385246661,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 10,
+      "field": "FN (km\u00b2)",
+      "manuscript": 108.47,
+      "rounded_source": 108.47,
+      "full_precision": 108.4692410574875,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 10,
+      "field": "FP (km\u00b2)",
+      "manuscript": 435.25,
+      "rounded_source": 435.25,
+      "full_precision": 435.2462252991524,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 10,
+      "field": "Brier",
+      "manuscript": 0.0389,
+      "rounded_source": 0.0389,
+      "full_precision": 0.0389048094514674,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 10,
+      "field": "C0.1",
+      "manuscript": 0.0787,
+      "rounded_source": 0.0787,
+      "full_precision": 0.0787209308540992,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 11,
+      "field": "IoU",
+      "manuscript": 0.2829,
+      "rounded_source": 0.2829,
+      "full_precision": 0.2828993365337856,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 11,
+      "field": "FN (km\u00b2)",
+      "manuscript": 120.77,
+      "rounded_source": 120.77,
+      "full_precision": 120.77071304257966,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 11,
+      "field": "FP (km\u00b2)",
+      "manuscript": 752.98,
+      "rounded_source": 752.98,
+      "full_precision": 752.9811333629036,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 11,
+      "field": "Brier",
+      "manuscript": 0.06599,
+      "rounded_source": 0.06599,
+      "full_precision": 0.0659900186281068,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 11,
+      "field": "C0.1",
+      "manuscript": 0.0851,
+      "rounded_source": 0.0851,
+      "full_precision": 0.0850672965472155,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 12,
+      "field": "IoU",
+      "manuscript": 0.6176,
+      "rounded_source": 0.6176,
+      "full_precision": 0.617619189473312,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 12,
+      "field": "FN (km\u00b2)",
+      "manuscript": 90.42,
+      "rounded_source": 90.42,
+      "full_precision": 90.42106708972167,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 12,
+      "field": "FP (km\u00b2)",
+      "manuscript": 141.78,
+      "rounded_source": 141.78,
+      "full_precision": 141.77924917149352,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 12,
+      "field": "Brier",
+      "manuscript": 0.01537,
+      "rounded_source": 0.01537,
+      "full_precision": 0.0153737463833611,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 12,
+      "field": "C0.1",
+      "manuscript": 0.0788,
+      "rounded_source": 0.0788,
+      "full_precision": 0.0787990269886865,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 13,
+      "field": "IoU",
+      "manuscript": 0.38,
+      "rounded_source": 0.38,
+      "full_precision": 0.3799532187955101,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 13,
+      "field": "FN (km\u00b2)",
+      "manuscript": 100.79,
+      "rounded_source": 100.79,
+      "full_precision": 100.78985887218856,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 13,
+      "field": "FP (km\u00b2)",
+      "manuscript": 494.33,
+      "rounded_source": 494.33,
+      "full_precision": 494.3321279027748,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 13,
+      "field": "Brier",
+      "manuscript": 0.0329,
+      "rounded_source": 0.0329,
+      "full_precision": 0.0329004249331396,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 13,
+      "field": "C0.1",
+      "manuscript": 0.0357,
+      "rounded_source": 0.0357,
+      "full_precision": 0.0356924567159092,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 14,
+      "field": "IoU",
+      "manuscript": 0.6428,
+      "rounded_source": 0.6428,
+      "full_precision": 0.64276105944798,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 14,
+      "field": "FN (km\u00b2)",
+      "manuscript": 92.11,
+      "rounded_source": 92.11,
+      "full_precision": 92.1051934555168,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 14,
+      "field": "FP (km\u00b2)",
+      "manuscript": 115.41,
+      "rounded_source": 115.41,
+      "full_precision": 115.40630960919952,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 14,
+      "field": "Brier",
+      "manuscript": 0.01315,
+      "rounded_source": 0.01315,
+      "full_precision": 0.013152665415107,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 14,
+      "field": "C0.1",
+      "manuscript": 0.0568,
+      "rounded_source": 0.0568,
+      "full_precision": 0.0567677690198278,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 15,
+      "field": "IoU",
+      "manuscript": 0.6564,
+      "rounded_source": 0.6564,
+      "full_precision": 0.6563500560806398,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 15,
+      "field": "FN (km\u00b2)",
+      "manuscript": 90.99,
+      "rounded_source": 90.99,
+      "full_precision": 90.98582213166046,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 15,
+      "field": "FP (km\u00b2)",
+      "manuscript": 105.09,
+      "rounded_source": 105.09,
+      "full_precision": 105.08536925535584,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 15,
+      "field": "Brier",
+      "manuscript": 0.01274,
+      "rounded_source": 0.01274,
+      "full_precision": 0.012737968631321,
+      "passed": true
+    },
+    {
+      "table": "S3b",
+      "row": 15,
+      "field": "C0.1",
+      "manuscript": 0.0638,
+      "rounded_source": 0.0638,
+      "full_precision": 0.0637650797781429,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 0,
+      "field": "IoU",
+      "manuscript": 0.3235,
+      "rounded_source": 0.3235,
+      "full_precision": 0.3234508146961906,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 0,
+      "field": "Brier",
+      "manuscript": 0.0658,
+      "rounded_source": 0.0658,
+      "full_precision": 0.0657864620539693,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 0,
+      "field": "FN (km\u00b2)",
+      "manuscript": 634.82,
+      "rounded_source": 634.82,
+      "full_precision": 634.8150188249817,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 0,
+      "field": "FP (km\u00b2)",
+      "manuscript": 535.15,
+      "rounded_source": 535.15,
+      "full_precision": 535.1455792638778,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 1,
+      "field": "IoU",
+      "manuscript": 0.5405,
+      "rounded_source": 0.5405,
+      "full_precision": 0.5405128771249068,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 1,
+      "field": "Brier",
+      "manuscript": 0.0358,
+      "rounded_source": 0.0358,
+      "full_precision": 0.0358412782034946,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 1,
+      "field": "FN (km\u00b2)",
+      "manuscript": 513.01,
+      "rounded_source": 513.01,
+      "full_precision": 513.0051856443176,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 1,
+      "field": "FP (km\u00b2)",
+      "manuscript": 66.04,
+      "rounded_source": 66.04,
+      "full_precision": 66.04129894949341,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 2,
+      "field": "IoU",
+      "manuscript": 0.5232,
+      "rounded_source": 0.5232,
+      "full_precision": 0.5231502557766278,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 2,
+      "field": "Brier",
+      "manuscript": 0.0429,
+      "rounded_source": 0.0429,
+      "full_precision": 0.0428970984282172,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 2,
+      "field": "FN (km\u00b2)",
+      "manuscript": 529.25,
+      "rounded_source": 529.25,
+      "full_precision": 529.2538061201249,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 2,
+      "field": "FP (km\u00b2)",
+      "manuscript": 76.81,
+      "rounded_source": 76.81,
+      "full_precision": 76.80643875630189,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 3,
+      "field": "IoU",
+      "manuscript": 0.5375,
+      "rounded_source": 0.5375,
+      "full_precision": 0.5375448928413997,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 3,
+      "field": "Brier",
+      "manuscript": 0.0363,
+      "rounded_source": 0.0363,
+      "full_precision": 0.0362719553355073,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 3,
+      "field": "FN (km\u00b2)",
+      "manuscript": 511.21,
+      "rounded_source": 511.21,
+      "full_precision": 511.209933702568,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 3,
+      "field": "FP (km\u00b2)",
+      "manuscript": 76.34,
+      "rounded_source": 76.34,
+      "full_precision": 76.33906394878387,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 4,
+      "field": "IoU",
+      "manuscript": 0.5392,
+      "rounded_source": 0.5392,
+      "full_precision": 0.5392134734992666,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 4,
+      "field": "Brier",
+      "manuscript": 0.0361,
+      "rounded_source": 0.0361,
+      "full_precision": 0.0361343717391089,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 4,
+      "field": "FN (km\u00b2)",
+      "manuscript": 509.64,
+      "rounded_source": 509.64,
+      "full_precision": 509.6393367084274,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 4,
+      "field": "FP (km\u00b2)",
+      "manuscript": 75.32,
+      "rounded_source": 75.32,
+      "full_precision": 75.32029498370362,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 5,
+      "field": "IoU",
+      "manuscript": 0.5391,
+      "rounded_source": 0.5391,
+      "full_precision": 0.5391213074024885,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 5,
+      "field": "Brier",
+      "manuscript": 0.0361,
+      "rounded_source": 0.0361,
+      "full_precision": 0.0361202611492063,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 5,
+      "field": "FN (km\u00b2)",
+      "manuscript": 509.96,
+      "rounded_source": 509.96,
+      "full_precision": 509.9578709036026,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 5,
+      "field": "FP (km\u00b2)",
+      "manuscript": 74.95,
+      "rounded_source": 74.95,
+      "full_precision": 74.94648095436096,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 6,
+      "field": "IoU",
+      "manuscript": 0.1982,
+      "rounded_source": 0.1982,
+      "full_precision": 0.1982444511830095,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 6,
+      "field": "Brier",
+      "manuscript": 0.0391,
+      "rounded_source": 0.0391,
+      "full_precision": 0.0390811647245022,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 6,
+      "field": "FN (km\u00b2)",
+      "manuscript": 603.47,
+      "rounded_source": 603.47,
+      "full_precision": 603.4668631384201,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 6,
+      "field": "FP (km\u00b2)",
+      "manuscript": 612.33,
+      "rounded_source": 612.33,
+      "full_precision": 612.3288048602982,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 7,
+      "field": "IoU",
+      "manuscript": 0.586,
+      "rounded_source": 0.586,
+      "full_precision": 0.5860250474128816,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 7,
+      "field": "Brier",
+      "manuscript": 0.0176,
+      "rounded_source": 0.0176,
+      "full_precision": 0.0176476863726022,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 7,
+      "field": "FN (km\u00b2)",
+      "manuscript": 183.66,
+      "rounded_source": 183.66,
+      "full_precision": 183.65563593724823,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 7,
+      "field": "FP (km\u00b2)",
+      "manuscript": 325.27,
+      "rounded_source": 325.27,
+      "full_precision": 325.2662891172638,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 8,
+      "field": "IoU",
+      "manuscript": 0.6003,
+      "rounded_source": 0.6003,
+      "full_precision": 0.6002807836346695,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 8,
+      "field": "Brier",
+      "manuscript": 0.0201,
+      "rounded_source": 0.0201,
+      "full_precision": 0.0201352740695524,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 8,
+      "field": "FN (km\u00b2)",
+      "manuscript": 253.29,
+      "rounded_source": 253.29,
+      "full_precision": 253.28729984656525,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 8,
+      "field": "FP (km\u00b2)",
+      "manuscript": 180.07,
+      "rounded_source": 180.07,
+      "full_precision": 180.07254281803895,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 9,
+      "field": "IoU",
+      "manuscript": 0.5827,
+      "rounded_source": 0.5827,
+      "full_precision": 0.5826647110380128,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 9,
+      "field": "Brier",
+      "manuscript": 0.0177,
+      "rounded_source": 0.0177,
+      "full_precision": 0.0177406744380729,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 9,
+      "field": "FN (km\u00b2)",
+      "manuscript": 197.48,
+      "rounded_source": 197.48,
+      "full_precision": 197.479962716568,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 9,
+      "field": "FP (km\u00b2)",
+      "manuscript": 308.63,
+      "rounded_source": 308.63,
+      "full_precision": 308.6301649047165,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 10,
+      "field": "IoU",
+      "manuscript": 0.5862,
+      "rounded_source": 0.5862,
+      "full_precision": 0.5862475691951394,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 10,
+      "field": "Brier",
+      "manuscript": 0.0174,
+      "rounded_source": 0.0174,
+      "full_precision": 0.0173662442098951,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 10,
+      "field": "FN (km\u00b2)",
+      "manuscript": 196.4,
+      "rounded_source": 196.4,
+      "full_precision": 196.3953480213776,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 10,
+      "field": "FP (km\u00b2)",
+      "manuscript": 303.07,
+      "rounded_source": 303.07,
+      "full_precision": 303.06872123353577,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 11,
+      "field": "IoU",
+      "manuscript": 0.5862,
+      "rounded_source": 0.5862,
+      "full_precision": 0.5861585142643112,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 11,
+      "field": "Brier",
+      "manuscript": 0.0174,
+      "rounded_source": 0.0174,
+      "full_precision": 0.0173657852782679,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 11,
+      "field": "FN (km\u00b2)",
+      "manuscript": 197.54,
+      "rounded_source": 197.54,
+      "full_precision": 197.54412635813904,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 11,
+      "field": "FP (km\u00b2)",
+      "manuscript": 301.29,
+      "rounded_source": 301.29,
+      "full_precision": 301.292281850357,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 12,
+      "field": "IoU",
+      "manuscript": 0.2949,
+      "rounded_source": 0.2949,
+      "full_precision": 0.2949474019376805,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 12,
+      "field": "Brier",
+      "manuscript": 0.0545,
+      "rounded_source": 0.0545,
+      "full_precision": 0.0544950339641374,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 12,
+      "field": "FN (km\u00b2)",
+      "manuscript": 32.88,
+      "rounded_source": 32.88,
+      "full_precision": 32.884411390434266,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 12,
+      "field": "FP (km\u00b2)",
+      "manuscript": 164.14,
+      "rounded_source": 164.14,
+      "full_precision": 164.13541319818114,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 13,
+      "field": "IoU",
+      "manuscript": 0.4627,
+      "rounded_source": 0.4627,
+      "full_precision": 0.4627121831941845,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 13,
+      "field": "Brier",
+      "manuscript": 0.0327,
+      "rounded_source": 0.0327,
+      "full_precision": 0.032699724466735,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 13,
+      "field": "FN (km\u00b2)",
+      "manuscript": 26.89,
+      "rounded_source": 26.89,
+      "full_precision": 26.888346457366943,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 13,
+      "field": "FP (km\u00b2)",
+      "manuscript": 75.78,
+      "rounded_source": 75.78,
+      "full_precision": 75.7778778714981,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 14,
+      "field": "IoU",
+      "manuscript": 0.4711,
+      "rounded_source": 0.4711,
+      "full_precision": 0.4711124842201402,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 14,
+      "field": "Brier",
+      "manuscript": 0.0361,
+      "rounded_source": 0.0361,
+      "full_precision": 0.0361374445872452,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 14,
+      "field": "FN (km\u00b2)",
+      "manuscript": 28.24,
+      "rounded_source": 28.24,
+      "full_precision": 28.23687607457733,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 14,
+      "field": "FP (km\u00b2)",
+      "manuscript": 69.51,
+      "rounded_source": 69.51,
+      "full_precision": 69.50829456497192,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 15,
+      "field": "IoU",
+      "manuscript": 0.4718,
+      "rounded_source": 0.4718,
+      "full_precision": 0.471803113466951,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 15,
+      "field": "Brier",
+      "manuscript": 0.0304,
+      "rounded_source": 0.0304,
+      "full_precision": 0.0304248855183867,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 15,
+      "field": "FN (km\u00b2)",
+      "manuscript": 28.77,
+      "rounded_source": 28.77,
+      "full_precision": 28.76683102481079,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 15,
+      "field": "FP (km\u00b2)",
+      "manuscript": 68.11,
+      "rounded_source": 68.11,
+      "full_precision": 68.11450965637206,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 16,
+      "field": "IoU",
+      "manuscript": 0.4706,
+      "rounded_source": 0.4706,
+      "full_precision": 0.4706308419851351,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 16,
+      "field": "Brier",
+      "manuscript": 0.0309,
+      "rounded_source": 0.0309,
+      "full_precision": 0.0308626352422897,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 16,
+      "field": "FN (km\u00b2)",
+      "manuscript": 29.15,
+      "rounded_source": 29.15,
+      "full_precision": 29.15199447607422,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 16,
+      "field": "FP (km\u00b2)",
+      "manuscript": 67.75,
+      "rounded_source": 67.75,
+      "full_precision": 67.75298086958313,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 17,
+      "field": "IoU",
+      "manuscript": 0.4712,
+      "rounded_source": 0.4712,
+      "full_precision": 0.4712464489155491,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 17,
+      "field": "Brier",
+      "manuscript": 0.0309,
+      "rounded_source": 0.0309,
+      "full_precision": 0.0308796560097605,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 17,
+      "field": "FN (km\u00b2)",
+      "manuscript": 29.05,
+      "rounded_source": 29.05,
+      "full_precision": 29.05347825502777,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 17,
+      "field": "FP (km\u00b2)",
+      "manuscript": 67.72,
+      "rounded_source": 67.72,
+      "full_precision": 67.72290059585572,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 18,
+      "field": "IoU",
+      "manuscript": 0.5746,
+      "rounded_source": 0.5746,
+      "full_precision": 0.5746362201554859,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 18,
+      "field": "Brier",
+      "manuscript": 0.0183,
+      "rounded_source": 0.0183,
+      "full_precision": 0.0182949224453447,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 18,
+      "field": "FN (km\u00b2)",
+      "manuscript": 26.7,
+      "rounded_source": 26.7,
+      "full_precision": 26.69960493424988,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 18,
+      "field": "FP (km\u00b2)",
+      "manuscript": 13.64,
+      "rounded_source": 13.64,
+      "full_precision": 13.637392374465945,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 19,
+      "field": "IoU",
+      "manuscript": 0.6607,
+      "rounded_source": 0.6607,
+      "full_precision": 0.6606533940054806,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 19,
+      "field": "Brier",
+      "manuscript": 0.0148,
+      "rounded_source": 0.0148,
+      "full_precision": 0.014752867860801,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 19,
+      "field": "FN (km\u00b2)",
+      "manuscript": 17.91,
+      "rounded_source": 17.91,
+      "full_precision": 17.908770947158814,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 19,
+      "field": "FP (km\u00b2)",
+      "manuscript": 14.6,
+      "rounded_source": 14.6,
+      "full_precision": 14.59686058934784,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 20,
+      "field": "IoU",
+      "manuscript": 0.6713,
+      "rounded_source": 0.6713,
+      "full_precision": 0.6713169563254691,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 20,
+      "field": "Brier",
+      "manuscript": 0.0146,
+      "rounded_source": 0.0146,
+      "full_precision": 0.0146155142238224,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 20,
+      "field": "FN (km\u00b2)",
+      "manuscript": 18.45,
+      "rounded_source": 18.45,
+      "full_precision": 18.44698778440094,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 20,
+      "field": "FP (km\u00b2)",
+      "manuscript": 12.27,
+      "rounded_source": 12.27,
+      "full_precision": 12.273565280342105,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 21,
+      "field": "IoU",
+      "manuscript": 0.6594,
+      "rounded_source": 0.6594,
+      "full_precision": 0.6594223981472831,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 21,
+      "field": "Brier",
+      "manuscript": 0.0146,
+      "rounded_source": 0.0146,
+      "full_precision": 0.014635515213984,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 21,
+      "field": "FN (km\u00b2)",
+      "manuscript": 19.13,
+      "rounded_source": 19.13,
+      "full_precision": 19.12950583859253,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 21,
+      "field": "FP (km\u00b2)",
+      "manuscript": 12.92,
+      "rounded_source": 12.92,
+      "full_precision": 12.924458834106446,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 22,
+      "field": "IoU",
+      "manuscript": 0.6569,
+      "rounded_source": 0.6569,
+      "full_precision": 0.6569175660967155,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 22,
+      "field": "Brier",
+      "manuscript": 0.0147,
+      "rounded_source": 0.0147,
+      "full_precision": 0.0146901974569179,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 22,
+      "field": "FN (km\u00b2)",
+      "manuscript": 19.6,
+      "rounded_source": 19.6,
+      "full_precision": 19.60302655290222,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 22,
+      "field": "FP (km\u00b2)",
+      "manuscript": 12.56,
+      "rounded_source": 12.56,
+      "full_precision": 12.562503615081788,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 23,
+      "field": "IoU",
+      "manuscript": 0.6577,
+      "rounded_source": 0.6577,
+      "full_precision": 0.6577006047683129,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 23,
+      "field": "Brier",
+      "manuscript": 0.0146,
+      "rounded_source": 0.0146,
+      "full_precision": 0.0146320772922917,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 23,
+      "field": "FN (km\u00b2)",
+      "manuscript": 19.58,
+      "rounded_source": 19.58,
+      "full_precision": 19.58108505986023,
+      "passed": true
+    },
+    {
+      "table": "S4",
+      "row": 23,
+      "field": "FP (km\u00b2)",
+      "manuscript": 12.48,
+      "rounded_source": 12.48,
+      "full_precision": 12.484243196510317,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 0,
+      "field": "Threshold",
+      "manuscript": 0.80988,
+      "rounded_source": 0.80988,
+      "full_precision": 0.8098781704902649,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 0,
+      "field": "FPR",
+      "manuscript": 0.0028,
+      "rounded_source": 0.0028,
+      "full_precision": 0.0028040676838909,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 0,
+      "field": "Recall",
+      "manuscript": 0.2823,
+      "rounded_source": 0.2823,
+      "full_precision": 0.2822602263831534,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 0,
+      "field": "FN (km\u00b2)",
+      "manuscript": 529.98,
+      "rounded_source": 529.98,
+      "full_precision": 529.9783127709198,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 0,
+      "field": "FP (km\u00b2)",
+      "manuscript": 57.78,
+      "rounded_source": 57.78,
+      "full_precision": 57.777708434646605,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 1,
+      "field": "Threshold",
+      "manuscript": 0.5,
+      "rounded_source": 0.5,
+      "full_precision": 0.5,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 1,
+      "field": "FPR",
+      "manuscript": 0.00478,
+      "rounded_source": 0.00478,
+      "full_precision": 0.0047814417657773,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 1,
+      "field": "Recall",
+      "manuscript": 0.7037,
+      "rounded_source": 0.7037,
+      "full_precision": 0.7036658256177724,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 1,
+      "field": "FN (km\u00b2)",
+      "manuscript": 218.81,
+      "rounded_source": 218.81,
+      "full_precision": 218.81285046256252,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 1,
+      "field": "FP (km\u00b2)",
+      "manuscript": 98.52,
+      "rounded_source": 98.52,
+      "full_precision": 98.52142650743104,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 2,
+      "field": "Threshold",
+      "manuscript": 0.48782,
+      "rounded_source": 0.48782,
+      "full_precision": 0.4878204762935638,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 2,
+      "field": "FPR",
+      "manuscript": 0.0054,
+      "rounded_source": 0.0054,
+      "full_precision": 0.0054008931407164,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 2,
+      "field": "Recall",
+      "manuscript": 0.721,
+      "rounded_source": 0.721,
+      "full_precision": 0.7210357733767773,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 2,
+      "field": "FN (km\u00b2)",
+      "manuscript": 205.99,
+      "rounded_source": 205.99,
+      "full_precision": 205.9868988508148,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 2,
+      "field": "FP (km\u00b2)",
+      "manuscript": 111.29,
+      "rounded_source": 111.29,
+      "full_precision": 111.28519862901308,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 3,
+      "field": "Threshold",
+      "manuscript": 0.26817,
+      "rounded_source": 0.26817,
+      "full_precision": 0.2681740820407867,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 3,
+      "field": "FPR",
+      "manuscript": 0.04019,
+      "rounded_source": 0.04019,
+      "full_precision": 0.040189755925922,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 3,
+      "field": "Recall",
+      "manuscript": 0.8764,
+      "rounded_source": 0.8764,
+      "full_precision": 0.876376458698547,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 3,
+      "field": "FN (km\u00b2)",
+      "manuscript": 91.28,
+      "rounded_source": 91.28,
+      "full_precision": 91.2834961166382,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 3,
+      "field": "FP (km\u00b2)",
+      "manuscript": 828.11,
+      "rounded_source": 828.11,
+      "full_precision": 828.1083988405762,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 4,
+      "field": "Threshold",
+      "manuscript": 0.5,
+      "rounded_source": 0.5,
+      "full_precision": 0.5,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 4,
+      "field": "FPR",
+      "manuscript": 0.00478,
+      "rounded_source": 0.00478,
+      "full_precision": 0.0047814417657773,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 4,
+      "field": "Recall",
+      "manuscript": 0.7037,
+      "rounded_source": 0.7037,
+      "full_precision": 0.7036658256177724,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 4,
+      "field": "FN (km\u00b2)",
+      "manuscript": 218.81,
+      "rounded_source": 218.81,
+      "full_precision": 218.81285046256252,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 4,
+      "field": "FP (km\u00b2)",
+      "manuscript": 98.52,
+      "rounded_source": 98.52,
+      "full_precision": 98.52142650743104,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 5,
+      "field": "Threshold",
+      "manuscript": 0.48425,
+      "rounded_source": 0.48425,
+      "full_precision": 0.4842538237571716,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 5,
+      "field": "FPR",
+      "manuscript": 0.00548,
+      "rounded_source": 0.00548,
+      "full_precision": 0.005477185559137,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 5,
+      "field": "Recall",
+      "manuscript": 0.7228,
+      "rounded_source": 0.7228,
+      "full_precision": 0.7228159209334488,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 5,
+      "field": "FN (km\u00b2)",
+      "manuscript": 204.67,
+      "rounded_source": 204.67,
+      "full_precision": 204.67243972057344,
+      "passed": true
+    },
+    {
+      "table": "S5a",
+      "row": 5,
+      "field": "FP (km\u00b2)",
+      "manuscript": 112.86,
+      "rounded_source": 112.86,
+      "full_precision": 112.85720102132416,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 0,
+      "field": "Threshold",
+      "manuscript": 0.80988,
+      "rounded_source": 0.80988,
+      "full_precision": 0.8098781704902649,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 0,
+      "field": "FPR",
+      "manuscript": 0.0114,
+      "rounded_source": 0.0114,
+      "full_precision": 0.0114015552538735,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 0,
+      "field": "Recall",
+      "manuscript": 0.365,
+      "rounded_source": 0.365,
+      "full_precision": 0.3649521152534843,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 0,
+      "field": "FN (km\u00b2)",
+      "manuscript": 295.6,
+      "rounded_source": 295.6,
+      "full_precision": 295.59550004607394,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 0,
+      "field": "FP (km\u00b2)",
+      "manuscript": 133.44,
+      "rounded_source": 133.44,
+      "full_precision": 133.44024262857056,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 1,
+      "field": "Threshold",
+      "manuscript": 0.5,
+      "rounded_source": 0.5,
+      "full_precision": 0.5,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 1,
+      "field": "FPR",
+      "manuscript": 0.00986,
+      "rounded_source": 0.00986,
+      "full_precision": 0.0098606791304889,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 1,
+      "field": "Recall",
+      "manuscript": 0.8021,
+      "rounded_source": 0.8021,
+      "full_precision": 0.8021241586256298,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 1,
+      "field": "FN (km\u00b2)",
+      "manuscript": 92.11,
+      "rounded_source": 92.11,
+      "full_precision": 92.1051934555168,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 1,
+      "field": "FP (km\u00b2)",
+      "manuscript": 115.41,
+      "rounded_source": 115.41,
+      "full_precision": 115.40630960919952,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 2,
+      "field": "Threshold",
+      "manuscript": 0.48782,
+      "rounded_source": 0.48782,
+      "full_precision": 0.4878204762935638,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 2,
+      "field": "FPR",
+      "manuscript": 0.0093,
+      "rounded_source": 0.0093,
+      "full_precision": 0.0092988428550714,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 2,
+      "field": "Recall",
+      "manuscript": 0.8082,
+      "rounded_source": 0.8082,
+      "full_precision": 0.808222458910138,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 2,
+      "field": "FN (km\u00b2)",
+      "manuscript": 89.27,
+      "rounded_source": 89.27,
+      "full_precision": 89.26661991590119,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 2,
+      "field": "FP (km\u00b2)",
+      "manuscript": 108.83,
+      "rounded_source": 108.83,
+      "full_precision": 108.83075327149965,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 3,
+      "field": "Threshold",
+      "manuscript": 0.26817,
+      "rounded_source": 0.26817,
+      "full_precision": 0.2681740820407867,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 3,
+      "field": "FPR",
+      "manuscript": 0.06952,
+      "rounded_source": 0.06952,
+      "full_precision": 0.0695231033246171,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 3,
+      "field": "Recall",
+      "manuscript": 0.903,
+      "rounded_source": 0.903,
+      "full_precision": 0.9029971021244,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 3,
+      "field": "FN (km\u00b2)",
+      "manuscript": 45.15,
+      "rounded_source": 45.15,
+      "full_precision": 45.15190238748932,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 3,
+      "field": "FP (km\u00b2)",
+      "manuscript": 813.68,
+      "rounded_source": 813.68,
+      "full_precision": 813.6766931665993,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 4,
+      "field": "Threshold",
+      "manuscript": 0.5,
+      "rounded_source": 0.5,
+      "full_precision": 0.5,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 4,
+      "field": "FPR",
+      "manuscript": 0.00986,
+      "rounded_source": 0.00986,
+      "full_precision": 0.0098606791304889,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 4,
+      "field": "Recall",
+      "manuscript": 0.8021,
+      "rounded_source": 0.8021,
+      "full_precision": 0.8021241586256298,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 4,
+      "field": "FN (km\u00b2)",
+      "manuscript": 92.11,
+      "rounded_source": 92.11,
+      "full_precision": 92.1051934555168,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 4,
+      "field": "FP (km\u00b2)",
+      "manuscript": 115.41,
+      "rounded_source": 115.41,
+      "full_precision": 115.40630960919952,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 5,
+      "field": "Threshold",
+      "manuscript": 0.48425,
+      "rounded_source": 0.48425,
+      "full_precision": 0.4842538237571716,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 5,
+      "field": "FPR",
+      "manuscript": 0.00939,
+      "rounded_source": 0.00939,
+      "full_precision": 0.009394159920437,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 5,
+      "field": "Recall",
+      "manuscript": 0.8093,
+      "rounded_source": 0.8093,
+      "full_precision": 0.8092998012840869,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 5,
+      "field": "FN (km\u00b2)",
+      "manuscript": 88.77,
+      "rounded_source": 88.77,
+      "full_precision": 88.76514976633072,
+      "passed": true
+    },
+    {
+      "table": "S5b",
+      "row": 5,
+      "field": "FP (km\u00b2)",
+      "manuscript": 109.95,
+      "rounded_source": 109.95,
+      "full_precision": 109.94631444239424,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 0,
+      "field": "Difference",
+      "manuscript": 5.12,
+      "rounded_source": 5.12,
+      "full_precision": 5.120063239883417,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 0,
+      "field": "Interval lower",
+      "manuscript": 1.46,
+      "rounded_source": 1.46,
+      "full_precision": 1.459123029870225,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 0,
+      "field": "Interval upper",
+      "manuscript": 8.78,
+      "rounded_source": 8.78,
+      "full_precision": 8.781003449896609,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 1,
+      "field": "Difference",
+      "manuscript": 7.07,
+      "rounded_source": 7.07,
+      "full_precision": 7.0744148546600245,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 1,
+      "field": "Interval lower",
+      "manuscript": 4.91,
+      "rounded_source": 4.91,
+      "full_precision": 4.90559915510693,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 1,
+      "field": "Interval upper",
+      "manuscript": 9.24,
+      "rounded_source": 9.24,
+      "full_precision": 9.24323055421312,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 2,
+      "field": "Difference",
+      "manuscript": 12.16,
+      "rounded_source": 12.16,
+      "full_precision": 12.163069939163243,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 2,
+      "field": "Interval lower",
+      "manuscript": 9.02,
+      "rounded_source": 9.02,
+      "full_precision": 9.018764892960316,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 2,
+      "field": "Interval upper",
+      "manuscript": 15.31,
+      "rounded_source": 15.31,
+      "full_precision": 15.307374985366174,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 3,
+      "field": "Difference",
+      "manuscript": -5.05,
+      "rounded_source": -5.05,
+      "full_precision": -5.04639176345061,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 3,
+      "field": "Interval lower",
+      "manuscript": -6.89,
+      "rounded_source": -6.89,
+      "full_precision": -6.88617454709506,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 3,
+      "field": "Interval upper",
+      "manuscript": -3.21,
+      "rounded_source": -3.21,
+      "full_precision": -3.206608979806161,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 4,
+      "field": "Difference",
+      "manuscript": 18.72,
+      "rounded_source": 18.72,
+      "full_precision": 18.717081157249456,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 4,
+      "field": "Interval lower",
+      "manuscript": 6.2,
+      "rounded_source": 6.2,
+      "full_precision": 6.204538850954728,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 4,
+      "field": "Interval upper",
+      "manuscript": 31.23,
+      "rounded_source": 31.23,
+      "full_precision": 31.229623463544183,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 5,
+      "field": "Difference",
+      "manuscript": 36.37,
+      "rounded_source": 36.37,
+      "full_precision": 36.36534869861603,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 5,
+      "field": "Interval lower",
+      "manuscript": 21.22,
+      "rounded_source": 21.22,
+      "full_precision": 21.217439633279668,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 5,
+      "field": "Interval upper",
+      "manuscript": 51.51,
+      "rounded_source": 51.51,
+      "full_precision": 51.5132577639524,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 6,
+      "field": "Difference",
+      "manuscript": 22.43,
+      "rounded_source": 22.43,
+      "full_precision": 22.425045592781096,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 6,
+      "field": "Interval lower",
+      "manuscript": 11.82,
+      "rounded_source": 11.82,
+      "full_precision": 11.820547607554344,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 6,
+      "field": "Interval upper",
+      "manuscript": 33.03,
+      "rounded_source": 33.03,
+      "full_precision": 33.029543578007846,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 7,
+      "field": "Difference",
+      "manuscript": 24.92,
+      "rounded_source": 24.92,
+      "full_precision": 24.91609919469452,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 7,
+      "field": "Interval lower",
+      "manuscript": 16.12,
+      "rounded_source": 16.12,
+      "full_precision": 16.11601456364727,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 7,
+      "field": "Interval upper",
+      "manuscript": 33.72,
+      "rounded_source": 33.72,
+      "full_precision": 33.71618382574177,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 8,
+      "field": "Difference",
+      "manuscript": 9.49,
+      "rounded_source": 9.49,
+      "full_precision": 9.485072064895611,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 8,
+      "field": "Interval lower",
+      "manuscript": -1.32,
+      "rounded_source": -1.32,
+      "full_precision": -1.3235588948700432,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 8,
+      "field": "Interval upper",
+      "manuscript": 20.29,
+      "rounded_source": 20.29,
+      "full_precision": 20.29370302466127,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 9,
+      "field": "Difference",
+      "manuscript": 11.88,
+      "rounded_source": 11.88,
+      "full_precision": 11.88384710093689,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 9,
+      "field": "Interval lower",
+      "manuscript": 7.98,
+      "rounded_source": 7.98,
+      "full_precision": 7.97723305828019,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 9,
+      "field": "Interval upper",
+      "manuscript": 15.79,
+      "rounded_source": 15.79,
+      "full_precision": 15.79046114359359,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 10,
+      "field": "Difference",
+      "manuscript": 10.45,
+      "rounded_source": 10.45,
+      "full_precision": 10.445682680671728,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 10,
+      "field": "Interval lower",
+      "manuscript": 4.15,
+      "rounded_source": 4.15,
+      "full_precision": 4.14503191912818,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 10,
+      "field": "Interval upper",
+      "manuscript": 16.75,
+      "rounded_source": 16.75,
+      "full_precision": 16.746333442215278,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 11,
+      "field": "Difference",
+      "manuscript": 10.3,
+      "rounded_source": 10.3,
+      "full_precision": 10.30283587156677,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 11,
+      "field": "Interval lower",
+      "manuscript": 7.22,
+      "rounded_source": 7.22,
+      "full_precision": 7.223398376154286,
+      "passed": true
+    },
+    {
+      "table": "S6a",
+      "row": 11,
+      "field": "Interval upper",
+      "manuscript": 13.38,
+      "rounded_source": 13.38,
+      "full_precision": 13.382273366979256,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 0,
+      "field": "Difference",
+      "manuscript": 5.13,
+      "rounded_source": 5.13,
+      "full_precision": 5.132287411247275,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 0,
+      "field": "Interval lower",
+      "manuscript": 0.06,
+      "rounded_source": 0.06,
+      "full_precision": 0.0588312195772617,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 0,
+      "field": "Interval upper",
+      "manuscript": 10.21,
+      "rounded_source": 10.21,
+      "full_precision": 10.205743602917288,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 1,
+      "field": "Difference",
+      "manuscript": -2.73,
+      "rounded_source": -2.73,
+      "full_precision": -2.725780473022453,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 1,
+      "field": "Interval lower",
+      "manuscript": -12.28,
+      "rounded_source": -12.28,
+      "full_precision": -12.283096295895946,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 1,
+      "field": "Interval upper",
+      "manuscript": 6.83,
+      "rounded_source": 6.83,
+      "full_precision": 6.831535349851039,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 2,
+      "field": "Difference",
+      "manuscript": 4.51,
+      "rounded_source": 4.51,
+      "full_precision": 4.50873836151886,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 2,
+      "field": "Interval lower",
+      "manuscript": 1.38,
+      "rounded_source": 1.38,
+      "full_precision": 1.3833966151504615,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 2,
+      "field": "Interval upper",
+      "manuscript": 7.63,
+      "rounded_source": 7.63,
+      "full_precision": 7.634080107887259,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 3,
+      "field": "Difference",
+      "manuscript": 1.27,
+      "rounded_source": 1.27,
+      "full_precision": 1.2676645527267456,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 3,
+      "field": "Interval lower",
+      "manuscript": -1.37,
+      "rounded_source": -1.37,
+      "full_precision": -1.3679877657647257,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 3,
+      "field": "Interval upper",
+      "manuscript": 3.9,
+      "rounded_source": 3.9,
+      "full_precision": 3.903316871218217,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 4,
+      "field": "Difference",
+      "manuscript": 42.15,
+      "rounded_source": 42.15,
+      "full_precision": 42.14991614864349,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 4,
+      "field": "Interval lower",
+      "manuscript": 26.08,
+      "rounded_source": 26.08,
+      "full_precision": 26.080369507134,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 4,
+      "field": "Interval upper",
+      "manuscript": 58.22,
+      "rounded_source": 58.22,
+      "full_precision": 58.21946279015298,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 5,
+      "field": "Difference",
+      "manuscript": 72.52,
+      "rounded_source": 72.52,
+      "full_precision": 72.52293543869024,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 5,
+      "field": "Interval lower",
+      "manuscript": 40.3,
+      "rounded_source": 40.3,
+      "full_precision": 40.299923523524654,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 5,
+      "field": "Interval upper",
+      "manuscript": 104.75,
+      "rounded_source": 104.75,
+      "full_precision": 104.74594735385584,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 6,
+      "field": "Difference",
+      "manuscript": 44.6,
+      "rounded_source": 44.6,
+      "full_precision": 44.59745655403524,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 6,
+      "field": "Interval lower",
+      "manuscript": 28.12,
+      "rounded_source": 28.12,
+      "full_precision": 28.12143626474751,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 6,
+      "field": "Interval upper",
+      "manuscript": 61.07,
+      "rounded_source": 61.07,
+      "full_precision": 61.07347684332297,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 7,
+      "field": "Difference",
+      "manuscript": 50.55,
+      "rounded_source": 50.55,
+      "full_precision": 50.55170751301574,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 7,
+      "field": "Interval lower",
+      "manuscript": 31.04,
+      "rounded_source": 31.04,
+      "full_precision": 31.039792144800533,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 7,
+      "field": "Interval upper",
+      "manuscript": 70.06,
+      "rounded_source": 70.06,
+      "full_precision": 70.06362288123096,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 8,
+      "field": "Difference",
+      "manuscript": 0.03,
+      "rounded_source": 0.03,
+      "full_precision": 0.0332287049446105,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 8,
+      "field": "Interval lower",
+      "manuscript": -0.17,
+      "rounded_source": -0.17,
+      "full_precision": -0.1668299576693974,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 8,
+      "field": "Interval upper",
+      "manuscript": 0.23,
+      "rounded_source": 0.23,
+      "full_precision": 0.2332873675586186,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 9,
+      "field": "Difference",
+      "manuscript": 0.29,
+      "rounded_source": 0.29,
+      "full_precision": 0.2875936654510498,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 9,
+      "field": "Interval lower",
+      "manuscript": 0.01,
+      "rounded_source": 0.01,
+      "full_precision": 0.0088856891501332,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 9,
+      "field": "Interval upper",
+      "manuscript": 0.57,
+      "rounded_source": 0.57,
+      "full_precision": 0.5663016417519665,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 10,
+      "field": "Difference",
+      "manuscript": -1.07,
+      "rounded_source": -1.07,
+      "full_precision": -1.073550012664796,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 10,
+      "field": "Interval lower",
+      "manuscript": -1.79,
+      "rounded_source": -1.79,
+      "full_precision": -1.7882617391038833,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 10,
+      "field": "Interval upper",
+      "manuscript": -0.36,
+      "rounded_source": -0.36,
+      "full_precision": -0.3588382862257085,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 11,
+      "field": "Difference",
+      "manuscript": -10.21,
+      "rounded_source": -10.21,
+      "full_precision": -10.205767715629571,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 11,
+      "field": "Interval lower",
+      "manuscript": -21.6,
+      "rounded_source": -21.6,
+      "full_precision": -21.60285350252809,
+      "passed": true
+    },
+    {
+      "table": "S6b",
+      "row": 11,
+      "field": "Interval upper",
+      "manuscript": 1.19,
+      "rounded_source": 1.19,
+      "full_precision": 1.191318071268947,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 0,
+      "field": "Residual FN",
+      "manuscript": 105.0,
+      "rounded_source": 105.0,
+      "full_precision": 104.99680738365936,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 1,
+      "field": "Residual FN",
+      "manuscript": 97.95,
+      "rounded_source": 97.95,
+      "full_precision": 97.95380068437956,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 2,
+      "field": "Residual FN",
+      "manuscript": 110.12,
+      "rounded_source": 110.12,
+      "full_precision": 110.11687062354278,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 3,
+      "field": "Residual FN",
+      "manuscript": 128.83,
+      "rounded_source": 128.83,
+      "full_precision": 128.83395178079223,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 4,
+      "field": "Residual FN",
+      "manuscript": 106.41,
+      "rounded_source": 106.41,
+      "full_precision": 106.40890618801116,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 5,
+      "field": "Residual FN",
+      "manuscript": 43.47,
+      "rounded_source": 43.47,
+      "full_precision": 43.47232037960434,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 6,
+      "field": "Residual FN",
+      "manuscript": 44.1,
+      "rounded_source": 44.1,
+      "full_precision": 44.09586942933273,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 7,
+      "field": "Residual FN",
+      "manuscript": 48.6,
+      "rounded_source": 48.6,
+      "full_precision": 48.6046077908516,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 8,
+      "field": "Residual FN",
+      "manuscript": 90.75,
+      "rounded_source": 90.75,
+      "full_precision": 90.75452393949509,
+      "passed": true
+    },
+    {
+      "table": "S7",
+      "row": 9,
+      "field": "Residual FN",
+      "manuscript": 46.16,
+      "rounded_source": 46.16,
+      "full_precision": 46.1570673854599,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "transport_archives": [
+    {
+      "filename": "01_documentation_tables_validation.tar.gz",
+      "bytes": 262028,
+      "sha256": "4c5b290d7f5800275a2ad3072944b9c85329ecd1867d7c1b9109cdc2f1fb1f90",
+      "members": 36,
+      "upload_status": "not_uploaded_author_deferred",
+      "remote_file_id": "",
+      "remote_checksum": "",
+      "dataset_doi": ""
+    },
+    {
+      "filename": "02_main_figure_source_data.tar.gz",
+      "bytes": 234185865,
+      "sha256": "d4541bfbc5a8f7806f85fad1bca3b87aad7902ceaffa4bc46c393bc3e181df06",
+      "members": 148,
+      "upload_status": "not_uploaded_author_deferred",
+      "remote_file_id": "",
+      "remote_checksum": "",
+      "dataset_doi": ""
+    },
+    {
+      "filename": "03_supplementary_figure_source_data.tar.gz",
+      "bytes": 32977964,
+      "sha256": "259dac4c65beea1091ea30b19a1b416b5e972a4d358d02e332f89848c72527a3",
+      "members": 128,
+      "upload_status": "not_uploaded_author_deferred",
+      "remote_file_id": "",
+      "remote_checksum": "",
+      "dataset_doi": ""
+    },
+    {
+      "filename": "04_frozen_evaluation.tar.gz",
+      "bytes": 179311589,
+      "sha256": "b01a37eadc7c9c42790a0e93c519922384218cede01f2d9b1e8f6686a6e659a7",
+      "members": 49,
+      "upload_status": "not_uploaded_author_deferred",
+      "remote_file_id": "",
+      "remote_checksum": "",
+      "dataset_doi": ""
+    },
+    {
+      "filename": "05_provenance_training_models.tar.gz",
+      "bytes": 91124661,
+      "sha256": "93ab6921f3ed6746b326ac4b1a80d93770e0202756c70a49d53c8dab3b654fc5",
+      "members": 189,
+      "upload_status": "not_uploaded_author_deferred",
+      "remote_file_id": "",
+      "remote_checksum": "",
+      "dataset_doi": ""
+    },
+    {
+      "filename": "06_reference_tiff_masters.tar.gz",
+      "bytes": 118557005,
+      "sha256": "d8d94280ed4c0372214e95d76005a00f1ba53afb953425982dbe81e284721818",
+      "members": 17,
+      "upload_status": "not_uploaded_author_deferred",
+      "remote_file_id": "",
+      "remote_checksum": "",
+      "dataset_doi": ""
+    }
+  ],
+  "payload_files": 567,
+  "all_member_sha256_match": true,
+  "source_data_zip": {
+    "filename": "Source_Data.zip",
+    "bytes": 267306079,
+    "sha256": "6760d26e2e93d6c0348d4e4957a3daec90440ca704741beb3e50901a30b43ea0",
+    "members": 292
+  },
+  "external_status": "No Dataverse dataset, upload or DOI; deferred by author"
+}

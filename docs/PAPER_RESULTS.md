@@ -2,6 +2,17 @@
 
 Values are recalculated from unrounded frozen CSV records.
 
+The computation entry point is `publication/reproduce_numerical.py`. Map effects
+use `evaluation/map_metrics.csv` (region/model keys); review effects and ratios
+use `evaluation/review_budget_results.csv` (region/model/policy/budget keys).
+Review difference intervals come from `evaluation/review_simultaneous_intervals.csv`.
+All paths are relative to the separately verified data package; their complete-file
+hashes are in `FILE_MANIFEST.csv`. `publication/reproduce_evaluation.py` independently
+rebuilds the underlying metrics, selections and interval tables from the original
+patch/unit sufficient statistics. Final effects are rounded after subtraction or
+division of full-precision inputs. Relative reduction divides the learned-minus-proxy
+residual FN difference by learned-ranking residual FN at the same 10% area budget.
+
 | Region | Effect | Recomputed | Unit | Rounded manuscript value | Status |
 |---|---|---:|---|---:|---|
 | Beijing_Baoding | Fusion minus SAR IoU | 16.388406988 | percentage points | 16.39 | PASS |

@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "scope": "Actual frozen patch and review-unit sufficient statistics; no retraining or study prediction replacement",
+  "map_rows": 32,
+  "csv_comparisons": [
+    {
+      "file": "map_paired_spatial_intervals.csv",
+      "rows": 480,
+      "maximum_absolute_numeric_error": 0.0,
+      "columns": {
+        "difference_first_minus_second": 0.0,
+        "ci025": 0.0,
+        "ci975": 0.0,
+        "block_size_m": 0.0,
+        "occupied_blocks": 0.0
+      }
+    },
+    {
+      "file": "review_budget_results.csv",
+      "rows": 1824,
+      "maximum_absolute_numeric_error": 0.0,
+      "columns": {
+        "budget_fraction": 0.0,
+        "actual_area_fraction": 0.0,
+        "selected_units": 0.0,
+        "initial_fn_km2": 0.0,
+        "initial_fp_km2": 0.0,
+        "residual_fn_km2": 0.0,
+        "residual_fp_km2": 0.0,
+        "area_loss_lambda_0.25": 0.0,
+        "area_loss_lambda_1.0": 0.0,
+        "area_loss_lambda_4.0": 0.0,
+        "pareto_efficient_fn_fp": 0.0
+      }
+    },
+    {
+      "file": "review_paired_spatial_intervals.csv",
+      "rows": 144,
+      "maximum_absolute_numeric_error": 0.0,
+      "columns": {
+        "difference_first_minus_second": 0.0,
+        "ci025": 0.0,
+        "ci975": 0.0,
+        "block_size_m": 0.0,
+        "occupied_blocks": 0.0,
+        "budget_fraction": 0.0
+      }
+    },
+    {
+      "file": "review_simultaneous_intervals.csv",
+      "rows": 24,
+      "maximum_absolute_numeric_error": 0.0,
+      "columns": {
+        "difference_first_minus_second": 0.0,
+        "simultaneous_lower95": 0.0,
+        "simultaneous_upper95": 0.0,
+        "bootstrap_se": 0.0,
+        "maximum_deviation_critical_value": 0.0,
+        "family_estimates": 0.0,
+        "block_size_m": 0.0,
+        "occupied_blocks": 0.0,
+        "budget_fraction": 0.0
+      }
+    }
+  ],
+  "primary_selection_sets": 456,
+  "bootstrap": "Fresh deterministic resampling from original contributions using original algorithm and seed, compared with all archived intervals; not recovered from interval endpoints",
+  "limitation": "4096-bin average precision is preserved in original CSV, not independently rebuilt from the sufficient statistics. Pixel inference requires public original imagery plus released model states.",
+  "budget_and_fn_fp_conservation": true,
+  "core_units": 129347
+}

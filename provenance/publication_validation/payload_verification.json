@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "files_verified": 565,
+  "manifest_files": 565,
+  "figures": 16,
+  "panels": 82,
+  "failures": [],
+  "scope": "Actual research payload; synthetic fixtures excluded. SHA256 does not imply repository publication."
+}
