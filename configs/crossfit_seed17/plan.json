@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "created_at_utc": "2026-10-12T12:27:19.884267+00:00",
+  "seed": 17,
+  "development_groups": [
+    "2020_flood_season",
+    "2021_Henan",
+    "2024_April",
+    "2024_June"
+  ],
+  "manifest_sha256": "4ec15f03b063b615c06e0d1f585541f910e26b5a9ed4b364fe88cde9ca186757",
+  "training_samples": 8786,
+  "event_counts": {
+    "2020_flood_season": 2949,
+    "2021_Henan": 5022,
+    "2024_April": 476,
+    "2024_June": 339
+  },
+  "jobs": [
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g01_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan"
+      ],
+      "val_groups": [
+        "2024_April",
+        "2024_June"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g01_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan"
+      ],
+      "val_groups": [
+        "2024_April",
+        "2024_June"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g02_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2020_flood_season",
+        "2024_April"
+      ],
+      "val_groups": [
+        "2021_Henan",
+        "2024_June"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g02_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2020_flood_season",
+        "2024_April"
+      ],
+      "val_groups": [
+        "2021_Henan",
+        "2024_June"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g03_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2020_flood_season",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2021_Henan",
+        "2024_April"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g03_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2020_flood_season",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2021_Henan",
+        "2024_April"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g12_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2021_Henan",
+        "2024_April"
+      ],
+      "val_groups": [
+        "2020_flood_season",
+        "2024_June"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g12_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2021_Henan",
+        "2024_April"
+      ],
+      "val_groups": [
+        "2020_flood_season",
+        "2024_June"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g13_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2021_Henan",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2020_flood_season",
+        "2024_April"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g13_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2021_Henan",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2020_flood_season",
+        "2024_April"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g23_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2020_flood_season",
+        "2021_Henan"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g23_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2020_flood_season",
+        "2021_Henan"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g012_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan",
+        "2024_April"
+      ],
+      "val_groups": [
+        "2024_June"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g012_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan",
+        "2024_April"
+      ],
+      "val_groups": [
+        "2024_June"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g013_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2024_April"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g013_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2024_April"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g023_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2020_flood_season",
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2021_Henan"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g023_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2020_flood_season",
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2021_Henan"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g123_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2021_Henan",
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2020_flood_season"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "oof_s17_g123_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2021_Henan",
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [
+        "2020_flood_season"
+      ],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "seed": 17
+    },
+    {
+      "type": "head",
+      "kind": "value",
+      "run_id": "nested_s17_outer0_value",
+      "spec": "configs\\crossfit_seed17\\outer_0_value.json",
+      "epochs": 10,
+      "seed": 17,
+      "temperature": 0.05
+    },
+    {
+      "type": "head",
+      "kind": "value",
+      "run_id": "nested_s17_outer1_value",
+      "spec": "configs\\crossfit_seed17\\outer_1_value.json",
+      "epochs": 10,
+      "seed": 17,
+      "temperature": 0.05
+    },
+    {
+      "type": "head",
+      "kind": "value",
+      "run_id": "nested_s17_outer2_value",
+      "spec": "configs\\crossfit_seed17\\outer_2_value.json",
+      "epochs": 10,
+      "seed": 17,
+      "temperature": 0.05
+    },
+    {
+      "type": "head",
+      "kind": "value",
+      "run_id": "nested_s17_outer3_value",
+      "spec": "configs\\crossfit_seed17\\outer_3_value.json",
+      "epochs": 10,
+      "seed": 17,
+      "temperature": 0.05
+    },
+    {
+      "type": "head",
+      "kind": "value",
+      "run_id": "final_s17_value",
+      "spec": "configs\\crossfit_seed17\\final_value.json",
+      "epochs": 10,
+      "seed": 17,
+      "temperature": 0.05
+    },
+    {
+      "type": "head",
+      "kind": "ordinary_gate",
+      "run_id": "final_s17_ordinary_gate",
+      "spec": "configs\\crossfit_seed17\\final_ordinary_gate.json",
+      "epochs": 10,
+      "seed": 17,
+      "temperature": 0.05
+    },
+    {
+      "type": "head",
+      "kind": "stacker",
+      "run_id": "final_s17_stacker",
+      "spec": "configs\\crossfit_seed17\\final_stacker.json",
+      "epochs": 10,
+      "seed": 17,
+      "temperature": 0.05
+    },
+    {
+      "type": "head",
+      "kind": "risk",
+      "run_id": "final_s17_risk",
+      "spec": "configs\\crossfit_seed17\\final_risk.json",
+      "epochs": 10,
+      "seed": 17,
+      "temperature": 0.05
+    },
+    {
+      "type": "expert",
+      "run_id": "final_s17_sar",
+      "modality": "sar",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan",
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "no_validation": true,
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "final_s17_fusion",
+      "modality": "fusion",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan",
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "no_validation": true,
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "final_s17_optical",
+      "modality": "optical",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan",
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "no_validation": true,
+      "seed": 17
+    },
+    {
+      "type": "expert",
+      "run_id": "final_s17_rgb_fusion",
+      "modality": "rgb_fusion",
+      "train_groups": [
+        "2020_flood_season",
+        "2021_Henan",
+        "2024_April",
+        "2024_June"
+      ],
+      "val_groups": [],
+      "epochs": 20,
+      "selection": "fixed_last",
+      "no_validation": true,
+      "seed": 17
+    }
+  ],
+  "estimated_expert_probability_bytes": 18425577472,
+  "estimated_outer_gate_arrays_bytes": 6909591552,
+  "core_test_evaluated_by_queue": false,
+  "figure_generation": false,
+  "selection": "Fixed 20 expert epochs and 10 head epochs; no outer-event early stopping",
+  "value_target": "OOF expert Brier difference; pure squared regression loss",
+  "risk_target": "Flood label on predicted-negative pixels from complete-system nested OOF predictions",
+  "unverified_scene_age_used": false,
+  "calibration_claim": false,
+  "queued_after": "Manual review of completed initial baseline outputs and provenance"
+}

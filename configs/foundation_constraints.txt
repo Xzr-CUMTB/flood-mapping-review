@@ -1,0 +1,5 @@
+torch==2.7.1+cu128
+torchvision==0.22.1+cu128
+numpy==2.2.6
+terratorch==1.2.6
+torchgeo==0.8.1

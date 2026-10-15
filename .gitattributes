@@ -1,0 +1,2 @@
+# Preserve source bytes used in provenance and frozen-release SHA-256 checks.
+* -text

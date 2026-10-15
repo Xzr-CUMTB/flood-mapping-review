@@ -1,0 +1,20 @@
+{
+  "seed": 17,
+  "model": "TerraMind 1.0 tiny adaptation",
+  "parameters": 5873617,
+  "epochs": 20,
+  "batch_size": 8,
+  "backbone_lr": 0.0001,
+  "adaptation_lr": 0.001,
+  "checkpoint_selection": "Fixed final epoch, no validation-based selection",
+  "pretrained_weight_sha256": "e56ea9ebcd4451078b9ca4893d5cd8a89bbee376ae16829c3e7fbbbc76de0eba",
+  "foundation_api_version": "terratorch 1.2.6; torchgeo 0.8.1; torch 2.7.1+cu128",
+  "input_handling": "Pretrained S2 RGB stem with implementation-declared R,G,B and original 0-255 normalization; newly initialized GF3 HH/HV and NIR uint8 stems",
+  "jobs": [
+    {"run_id": "dev_terramind_s17", "train_groups": "2020_flood_season,2021_Henan", "val_groups": "2024_April,2024_June", "random_init": false, "no_validation": false},
+    {"run_id": "final_terramind_s17", "train_groups": "2020_flood_season,2021_Henan,2024_April,2024_June", "val_groups": "", "random_init": false, "no_validation": true},
+    {"run_id": "final_terramind_random_s17", "train_groups": "2020_flood_season,2021_Henan,2024_April,2024_June", "val_groups": "", "random_init": true, "no_validation": true}
+  ],
+  "test_access": "None in training queue; requires the frozen release and separate inference",
+  "comparison_scope": "Strong additional architecture family and same-architecture pretraining ablation; not a parameter-matched U-Net comparison"
+}

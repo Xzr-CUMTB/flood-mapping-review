@@ -1,0 +1,176 @@
+{
+  "version": 1,
+  "stage": "locally specified before core-test predictions; computational study, seed 17",
+  "data_manifest_sha256": "4ec15f03b063b615c06e0d1f585541f910e26b5a9ed4b364fe88cde9ca186757",
+  "core_group": "2023_holdout",
+  "primary_region": {
+    "name": "Beijing_Baoding",
+    "provisional_sites": [
+      "Beijing_region",
+      "Baoding_region"
+    ],
+    "spatial_block_crs": "EPSG:32650"
+  },
+  "secondary_region": {
+    "name": "Harbin",
+    "provisional_sites": [
+      "Harbin"
+    ],
+    "spatial_block_crs": "EPSG:32652"
+  },
+  "domain": "Eligible, deterministic non-overlapping patches; same common label/SAR/optical support for all primary comparisons",
+  "classification_threshold": 0.5,
+  "confident_omission_thresholds": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "main_confidence_threshold": 0.1,
+  "review_unit_pixels": [
+    64,
+    64
+  ],
+  "review_cost": "Valid geodesic area in each whole unit; physical time is not inferred",
+  "budget_fractions": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "primary_budget_fraction": 0.1,
+  "primary_endpoint": "Residual false-negative inundation area after idealized correction within reviewed units",
+  "required_companion_endpoint": "Residual false-positive area; improvements in missed area are assessed alongside false-alarm burden",
+  "tradeoff_checks": {
+    "report_pareto_dominance": true,
+    "area_loss": "FN_area + lambda_FP * FP_area",
+    "lambda_FP": [
+      0.25,
+      1.0,
+      4.0
+    ],
+    "interpretation": "Transparent area-cost sensitivity scenarios, not measured economic or human harm"
+  },
+  "review_assumption": "Perfect correction inside selected units; not measured human accuracy or time saved",
+  "unit_selection": "Descending score with stable ties; choose whole units that fit remaining area budget",
+  "oracle_reference": "True FN-density ranking under the same whole-unit rule; not an optimal variable-cost knapsack claim",
+  "primary_comparisons": [
+    "Value routing versus fusion and ordinary routing under the same entropy review policy",
+    "Learned omission risk versus entropy, probability proxy and unrestricted stacking risk on the same value-routed map",
+    "Value routing plus omission head versus fusion plus a matched omission head"
+  ],
+  "confirmatory_review_contrasts": [
+    [
+      "value_gate",
+      "mean_entropy",
+      "fusion",
+      "mean_entropy"
+    ],
+    [
+      "value_gate",
+      "mean_entropy",
+      "ordinary_gate",
+      "mean_entropy"
+    ],
+    [
+      "value_gate",
+      "learned_omission_density",
+      "value_gate",
+      "mean_entropy"
+    ],
+    [
+      "value_gate",
+      "learned_omission_density",
+      "value_gate",
+      "fn_probability_density"
+    ],
+    [
+      "value_gate",
+      "learned_omission_density",
+      "value_gate",
+      "stacker_omission_density"
+    ],
+    [
+      "value_gate",
+      "learned_omission_density",
+      "fusion",
+      "learned_omission_density"
+    ]
+  ],
+  "multiplicity": {
+    "method": "Simultaneous 95% bootstrap bands using the maximum standardized centered deviation across six paired contrasts and both residual FN/FP endpoints",
+    "family": "Twelve estimates within each region at the primary 10% budget and 10 km spatial blocks",
+    "primary_region": "Beijing_Baoding",
+    "secondary_region": "Harbin",
+    "other_intervals": "Pointwise descriptive intervals; do not select a main claim by screening all secondary contrasts or block sizes"
+  },
+  "simple_map_controls": [
+    "SAR",
+    "fusion",
+    "RGB_fusion",
+    "optical",
+    "probability_average",
+    "lower_entropy_expert",
+    "inverse_entropy_blend"
+  ],
+  "learned_controls": [
+    "ordinary_gate",
+    "value_gate",
+    "unrestricted_stacker"
+  ],
+  "foundation_controls": [
+    "TerraMind tiny adapted to RGB + new GF3 and NIR inputs",
+    "Same TerraMind architecture initialized randomly"
+  ],
+  "foundation_comparison_scope": "Different-capacity architecture control; not a parameter-matched comparison or a claim that tiny is the strongest TerraMind version",
+  "ensemble_control": "Three fusion members trained with fixed seeds 17, 29 and 43; mean probability map, variance and mutual-information review scores",
+  "targeted_uncertainty_control": "Area-mean entropy restricted to predicted-negative pixels, alongside the stronger probability-based omission proxy",
+  "calibration_controls": "Positive temperature fitted to development event-held-out probabilities; raw and calibrated results both retained",
+  "random_policy_seeds": [
+    17,
+    29,
+    43
+  ],
+  "spatial_uncertainty": {
+    "primary_block_size_m": 10000,
+    "sensitivity_block_sizes_m": [
+      5000,
+      20000
+    ],
+    "bootstrap_replicates": 2000,
+    "seed": 20261012,
+    "scope": "Spatial block composition uncertainty within each observed region; not independent-event replication",
+    "review_interval_scope": "Conditional on the fixed model and selected review units on the observed map"
+  },
+  "binned_probability_metrics": {
+    "precision_recall_bins": 4096,
+    "reliability_bins": 20,
+    "label": "Area-weighted binned approximation; IoU, Brier, NLL and omission areas remain pixel-exact"
+  },
+  "guardrails": [
+    "No checkpoint, threshold, architecture or policy selection using core-test labels",
+    "Show both supportive and contrary hypothesis outcomes",
+    "No population, casualty, forecast lead-time or realized labor-saving claims from these data"
+  ],
+  "figure_generation": false,
+  "operating_point_controls": {
+    "reference": "Fusion at probability 0.5 on sampled area-weighted development OOF predictions",
+    "scenarios": [
+      "Match development false-positive rate",
+      "Match development recall"
+    ],
+    "models": [
+      "sar",
+      "fusion",
+      "value_gate"
+    ],
+    "test_rule": "Apply these fixed raw-probability thresholds unchanged; report actual test FN/FP and rates; no matching on test labels",
+    "scope": "Secondary classification controls; learned review heads remain tied to the original 0.5 decision"
+  },
+  "router_mechanism_diagnostics": {
+    "unit": "Same 64x64 common-valid area",
+    "predicted_value": "Area-mean learned Brier-loss improvement, saved during inference without test labels",
+    "observed_value": "Area-mean SAR Brier loss minus fusion Brier loss",
+    "scope": "Descriptive held-out unit-level value estimation; not a causal effect of the sensor"
+  },
+  "targeted_ensemble_controls": "Report both full-unit ensemble variance/mutual information and their restriction to predicted-negative pixels for each evaluated map"
+}

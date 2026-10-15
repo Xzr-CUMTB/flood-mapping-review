@@ -1,0 +1,11 @@
+# Project .venv-experiments inherits torch 2.7.1+cu128 from conda pytorch.
+# Python 3.9; no replacement of the original GPU stack.
+rasterio==1.4.3
+tifffile==2024.8.30
+pyproj==3.6.1
+rarfile==4.2
+affine==2.4.0
+attrs==25.3.0
+click==8.1.8
+cligj==0.7.2
+click-plugins==1.1.1.2

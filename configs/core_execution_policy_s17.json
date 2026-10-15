@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "purpose": "Complete the already authorized computational experiment batch after all prescribed fits, using a fixed test protocol",
+  "test_group": "2023_holdout",
+  "core_predictions_inspected_when_policy_written": false,
+  "proceed_rule": "Proceed after every planned fit, calibration, data/source/checkpoint audit and evaluator check passes. Development effect size or direction is not an acceptance condition.",
+  "model_selection": "Use all prescribed models at their fixed final epochs; no best model is selected for reporting",
+  "hypotheses": "Retain supportive, null and contrary results, including raw versus calibrated confidence and both false-negative and false-positive outcomes",
+  "development_observations_at_review": [
+    "The initial raw confidence-omission ordering changed after development cross-event temperature calibration",
+    "The original sigmoid value router did not improve IoU over fusion in the first two nested development folds",
+    "In the Henan development fold, probability averaging improved IoU while increasing remaining missed area under the same entropy-based review budget and reducing false positives"
+  ],
+  "exploratory_diagnostics": "Analytic and ridge routing were studied after the first development fold; they are excluded from the main frozen core model comparisons",
+  "review_type": "Assistant review of the fixed protocol followed by automatic completeness and integrity checks; no claim that pending numerical results were already manually reviewed",
+  "scope": "Computational evaluation against released benchmark reference labels; submission readiness, independent label adjudication and real human-review performance are separate assessments",
+  "figure_generation": false,
+  "additional_downloads": false,
+  "workspace_budget_bytes": 100000000000
+}

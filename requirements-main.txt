@@ -1,0 +1,13 @@
+# Observed main environment, 2026-10-15; selected dependencies, not a historical lock.
+# Python 3.9. Install torch/torchvision using the cu128 index first (docs/REPRODUCING.md).
+numpy==1.26.3
+pandas==2.2.3
+scipy==1.13.1
+scikit-learn==1.6.1
+rasterio==1.4.3
+pyproj==3.6.1
+Pillow==11.0.0
+requests>=2.31,<3
+psutil>=5.9,<8
+rarfile==4.2
+tifffile==2024.8.30

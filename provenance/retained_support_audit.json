@@ -1,0 +1,49 @@
+{
+  "checked_at_utc": "2026-10-12T14:33:01.828582+00:00",
+  "retained_eligible_nonoverlap_samples": 17019,
+  "retained_max_grid_offset_pixels": 0.9658286031061382,
+  "retained_grid_offset_over_2_pixels": 0,
+  "scope": "Metadata and support counts; no model test predictions",
+  "groups": [
+    {
+      "event_group": "2020_flood_season",
+      "label_positive_pixels": 16270634,
+      "common_positive_pixels": 16198518,
+      "excluded_positive_pixels": 72116,
+      "label_valid_pixels": 193265664,
+      "common_valid_pixels": 186207161
+    },
+    {
+      "event_group": "2021_Henan",
+      "label_positive_pixels": 12959269,
+      "common_positive_pixels": 12880489,
+      "excluded_positive_pixels": 78780,
+      "label_valid_pixels": 329121792,
+      "common_valid_pixels": 316392180
+    },
+    {
+      "event_group": "2023_holdout",
+      "label_positive_pixels": 18870417,
+      "common_positive_pixels": 18854588,
+      "excluded_positive_pixels": 15829,
+      "label_valid_pixels": 539557888,
+      "common_valid_pixels": 524348531
+    },
+    {
+      "event_group": "2024_April",
+      "label_positive_pixels": 1468773,
+      "common_positive_pixels": 1467461,
+      "excluded_positive_pixels": 1312,
+      "label_valid_pixels": 31195136,
+      "common_valid_pixels": 29080124
+    },
+    {
+      "event_group": "2024_June",
+      "label_positive_pixels": 1050097,
+      "common_positive_pixels": 1047353,
+      "excluded_positive_pixels": 2744,
+      "label_valid_pixels": 22216704,
+      "common_valid_pixels": 20563223
+    }
+  ]
+}

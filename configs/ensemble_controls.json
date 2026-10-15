@@ -1,0 +1,15 @@
+{
+  "purpose": "Compare learned omission ranking with standard deep-ensemble epistemic uncertainty",
+  "seeds": [17, 29, 43],
+  "existing_member": "final_s17_fusion",
+  "new_members": ["final_s29_fusion", "final_s43_fusion"],
+  "architecture": "Identical six-channel width-16 FloodUNet",
+  "train_groups": "2020_flood_season,2021_Henan,2024_April,2024_June",
+  "epochs": 20,
+  "batch_size": 16,
+  "learning_rate": 0.001,
+  "selection": "Fixed final epoch; no validation or core-test selection",
+  "map": "Arithmetic mean of three independently initialized fusion probabilities",
+  "review_scores": ["Area-mean ensemble variance", "Area-mean H(mean probability) minus mean member entropy"],
+  "comparison_note": "Three fusion members versus two base experts plus heads; report the differing fit and inference costs"
+}

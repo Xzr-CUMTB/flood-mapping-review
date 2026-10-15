@@ -1,0 +1,33 @@
+{
+  "pairs": [
+    {
+      "sar_run": "oof_s17_g123_sar",
+      "fusion_run": "oof_s17_g123_fusion",
+      "groups": [
+        "2020_flood_season"
+      ]
+    },
+    {
+      "sar_run": "oof_s17_g023_sar",
+      "fusion_run": "oof_s17_g023_fusion",
+      "groups": [
+        "2021_Henan"
+      ]
+    },
+    {
+      "sar_run": "oof_s17_g013_sar",
+      "fusion_run": "oof_s17_g013_fusion",
+      "groups": [
+        "2024_April"
+      ]
+    },
+    {
+      "sar_run": "oof_s17_g012_sar",
+      "fusion_run": "oof_s17_g012_fusion",
+      "groups": [
+        "2024_June"
+      ]
+    }
+  ],
+  "excluded_groups": []
+}

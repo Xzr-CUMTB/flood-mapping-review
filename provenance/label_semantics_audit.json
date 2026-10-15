@@ -1,0 +1,20 @@
+{
+  "source": "Scientific Data 13, 540 (2026), DOI 10.1038/s41597-026-06929-6",
+  "local_pdf": "literature/raw/sen2gf3_paper.pdf",
+  "methods_page": 5,
+  "reported_initial_annotation": "Pre-event Sentinel-2 NDWI/Otsu water mask and post-event GF3 HH/HV Otsu candidates; spatial erase, manual refinement and historical Google Earth checking",
+  "reported_scaling_up": "Fifty initial samples across nine events followed by UNet++ and uncertainty-guided annotation/refinement",
+  "visual_source_checked": ["Page 9, Figure 6", "Page 10, Figure 7"],
+  "figure_7_observation": "The legend explicitly separates blue pre-disaster water and red flood area; red regions mainly occur around and beyond the blue extent in the published reservoir example",
+  "wording_discrepancy": "Page 8 also describes avoiding neglect of original water extent. This wording is less precise than the explicit erase operation and the Figure 7 legend",
+  "operational_target_for_our_experiments": "The released binary inundation reference label on common valid support. Per-pixel metrics quantify agreement with that reference",
+  "not_inferred": ["Every released label was independently redrawn", "Every positive pixel is independently confirmed disaster-caused new inundation", "Ground-truth depth, damage, casualties or real-time forecast skill"],
+  "experimental_response": [
+    "Retain the optical-only control to inspect pre-event contextual dependence",
+    "Keep all pixel labels unchanged during geospatial alignment",
+    "Keep spatial/event holds separate from claims of independent reference-label creation",
+    "Report idealized review against released labels; independent expert reference audit is a separate evidence stage"
+  ],
+  "new_publication_figures_generated": false,
+  "source_page_rendering_purpose": "Inspection of existing published figures to verify label semantics"
+}
