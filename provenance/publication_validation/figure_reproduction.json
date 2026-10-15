@@ -1,0 +1,424 @@
+{
+  "passed": true,
+  "complete": true,
+  "figures": 16,
+  "results": [
+    {
+      "figure": "Fig01",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 39.51599999999962,
+      "renderer_sha256": "a3445da26984e9bbc0d537bd0a0472e1527afce311dbff5283a6f70599d1f442",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "10bde1473e0de24779c3b14bdc63a6022647b3c47ca726aa728a15f3eefbd438",
+        "actual_sha256": "10bde1473e0de24779c3b14bdc63a6022647b3c47ca726aa728a15f3eefbd438",
+        "dimensions": [
+          8503,
+          10393
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "Fig02",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 13.907000000002881,
+      "renderer_sha256": "03b63aa0dbaedad0b8f38904d0b955e4b2c7f82c2276875ddb744faa3d9756fd",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "9a795515e54b8648bd6e0c8dbcf97d9d844ec4daa233850547b30eee855adf1b",
+        "actual_sha256": "9a795515e54b8648bd6e0c8dbcf97d9d844ec4daa233850547b30eee855adf1b",
+        "dimensions": [
+          8503,
+          9212
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "Fig03",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 6.609000000000378,
+      "renderer_sha256": "6aa2e399e0fe15b22c61c514940b8c5c31b2d4e444028e430a6ffc3773a2bb07",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "8c63f1768c568e15f31d97d83d5591a162187860ba6e045e6e5e097086a54849",
+        "actual_sha256": "8c63f1768c568e15f31d97d83d5591a162187860ba6e045e6e5e097086a54849",
+        "dimensions": [
+          8503,
+          9448
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "Fig04",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 9.389999999999418,
+      "renderer_sha256": "f538114d04f1fdaf3f3c076a79f304bdadbd48e8fe3ee5a9280ad8a0ec3b92d6",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "9dac419637227aa1729a4cfb14b35da3df2862dce4084fb6242237b31bf23f15",
+        "actual_sha256": "9dac419637227aa1729a4cfb14b35da3df2862dce4084fb6242237b31bf23f15",
+        "dimensions": [
+          8503,
+          10629
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "Fig05",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 10.079000000001543,
+      "renderer_sha256": "9a2c2c773545f0b8a4261b0480540d383e1f50a0a9a982ff3906931eec6cf294",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "732afe2845abc93daaea493b14b379471a11bf4592aacbaa656c2ffc5f707dac",
+        "actual_sha256": "732afe2845abc93daaea493b14b379471a11bf4592aacbaa656c2ffc5f707dac",
+        "dimensions": [
+          8503,
+          9685
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "Fig06",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 4.764999999999418,
+      "renderer_sha256": "dd31f67208f8bedd6ec6f1111e17951ee981247c1a6de4a3664c4de4ee964bcc",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "466fa9bcb258d02d45edb551c2d9b5563917f9a385629ba489d15f12e9031de8",
+        "actual_sha256": "466fa9bcb258d02d45edb551c2d9b5563917f9a385629ba489d15f12e9031de8",
+        "dimensions": [
+          8503,
+          8031
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S01",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 4.264999999999418,
+      "renderer_sha256": "c1dcbc8e2e6301308e8d8211b433152e9ccb027767251d733d5481419e25c96d",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "321ce6c3c6ff56322595e22365fd44de360d3ef70ecb048c9273d712e8397f89",
+        "actual_sha256": "321ce6c3c6ff56322595e22365fd44de360d3ef70ecb048c9273d712e8397f89",
+        "dimensions": [
+          8503,
+          7256
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S02",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 6.578000000001339,
+      "renderer_sha256": "000b067c69ae5f2399bd2cce9584fe878a484a35542d0e1d2f371edcd2810a3f",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "052a547149252d939cd6c56aa406f79f1702ce9fb7a40a2b8fae31de497c1018",
+        "actual_sha256": "052a547149252d939cd6c56aa406f79f1702ce9fb7a40a2b8fae31de497c1018",
+        "dimensions": [
+          8503,
+          8692
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S03",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 3.922000000002299,
+      "renderer_sha256": "de79eec2f943e47f3ceeede71d44ac4ee7f1d0a4543390823cca4ddaa0003832",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "dc399dd0ba7432c205257c774a0e20101f7f3f932c1e8c77b5a696645088c5a1",
+        "actual_sha256": "dc399dd0ba7432c205257c774a0e20101f7f3f932c1e8c77b5a696645088c5a1",
+        "dimensions": [
+          8503,
+          6661
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S04",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 5.15599999999904,
+      "renderer_sha256": "c846f37e5ea29232a202a532854971d53aff13555cc3d0dce8d466fd8151a086",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "392ef0e32ec8357037a30b931ffaa1c47ab731c07fc20df86c864c985f248479",
+        "actual_sha256": "392ef0e32ec8357037a30b931ffaa1c47ab731c07fc20df86c864c985f248479",
+        "dimensions": [
+          8503,
+          9354
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S05",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 4.859000000000378,
+      "renderer_sha256": "f0932651ab1664f6af16eb9df1b238c8d5ea80ee5be4587fb029a518027802a1",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "ec6c4cd05f35cffa6063e6876dae329fcb0df12d9a1e55fe5a69cf7840486685",
+        "actual_sha256": "ec6c4cd05f35cffa6063e6876dae329fcb0df12d9a1e55fe5a69cf7840486685",
+        "dimensions": [
+          8503,
+          7254
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S06",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 4.359000000000378,
+      "renderer_sha256": "bfc7034c306c749da9368b7674222d7344c1146b18e98d524551d680d002016c",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "f3b00c10a921966afe65a08c728d47e307705337d83277288e51dd7a5df818f9",
+        "actual_sha256": "f3b00c10a921966afe65a08c728d47e307705337d83277288e51dd7a5df818f9",
+        "dimensions": [
+          8503,
+          7228
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S07",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 13.5,
+      "renderer_sha256": "f71fbf1a846d180a4d09f41ddf1774e036a20bac5d589e5384201e3c63fe02c8",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "1d8a8cea3a25cc72de5f7faf2020ebe41c085964a9141e9435b6b08ff4daa672",
+        "actual_sha256": "1d8a8cea3a25cc72de5f7faf2020ebe41c085964a9141e9435b6b08ff4daa672",
+        "dimensions": [
+          8503,
+          8258
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S08",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 5.75,
+      "renderer_sha256": "e06f660cccc1d0449c8453e522382fd0b07952f2d82e3045b93898b8a79ba5ca",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "de33d68ef0eadd8737b8fcf0a7a6fd6808fd9b167d53e0ea719246abbb647044",
+        "actual_sha256": "de33d68ef0eadd8737b8fcf0a7a6fd6808fd9b167d53e0ea719246abbb647044",
+        "dimensions": [
+          8503,
+          9127
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S09",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 5.889999999999418,
+      "renderer_sha256": "1ecb3e17f043a01319576ed1d6ce73b7197a2b3a3d9892c110b1fecd049e99d2",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "b95d53fa64d24eb3f37c8241e445a794fa6b07c6f1acbb2b58df05b85bf0c7c3",
+        "actual_sha256": "b95d53fa64d24eb3f37c8241e445a794fa6b07c6f1acbb2b58df05b85bf0c7c3",
+        "dimensions": [
+          8503,
+          9458
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    },
+    {
+      "figure": "S10",
+      "rendered": true,
+      "final": true,
+      "font": "Times New Roman",
+      "elapsed_seconds": 4.703000000001339,
+      "renderer_sha256": "438392d4c0050c87d3fe1d741dc6ffd90262d43497464f9e171d3f6bfaf67311",
+      "source_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+      "reference_comparison": {
+        "reference_sha256": "8adcf8238fb3355226baaea4b94da257585a9c9e15b67f78927cee852f0b202d",
+        "actual_sha256": "8adcf8238fb3355226baaea4b94da257585a9c9e15b67f78927cee852f0b202d",
+        "dimensions": [
+          8503,
+          7606
+        ],
+        "mode": "RGB",
+        "dpi": [
+          1200.0,
+          1200.0
+        ],
+        "same_dimensions": true,
+        "identical_pixels": true,
+        "different_channels": 0,
+        "maximum_channel_difference": 0
+      }
+    }
+  ],
+  "scope": "Exact original renderers and deposited numerical sources; no fitted model or statistics altered"
+}

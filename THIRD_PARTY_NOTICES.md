@@ -18,3 +18,15 @@
 
 Dependency installation and data/model downloading are explicit user-run stages.
 No account token, API credential or private service is required by the main data downloader.
+
+## Confirmed publication licences
+
+Original research software is Apache-2.0 (LICENSE and NOTICE). Study-generated
+replication results are CC BY 4.0; fitted model-only states are Apache-2.0.
+The authors confirmed this scheme on 15 October 2026. Model binaries are held in
+the data package, not Git, and derived TerraMind states preserve upstream notices.
+
+Sen2GF3Floods V2 creators are Wenting Chen, Yueqin Zhu, Wenlong Han, Diyou Liu,
+Guiquan Mo and Ziyao Xing (Science Data Bank, 2026). Cite the original dataset DOI
+and retain CC BY 4.0 attribution when redistributing cropped/aligned derivatives.
+The official source metadata and complete licence exceptions accompany the data.

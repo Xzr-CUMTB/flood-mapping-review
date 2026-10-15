@@ -1,0 +1,29 @@
+"""Document actual numerical findings and enrich the figure-only source handoff."""
+import os,json,sys,platform
+os.environ.setdefault('MKL_THREADING_LAYER','SEQUENTIAL')
+from pathlib import Path
+import numpy as np
+import pandas as pd
+import matplotlib,scipy,PIL,pyproj
+OUT=Path(os.path.abspath(__file__)).parents[1];SD=OUT/'source_data';AS=OUT/'assets'
+u=pd.read_csv(SD/'review_units.csv.gz');stats=pd.read_csv(SD/'panel_a_distribution_summary.csv');b=pd.read_csv(SD/'panel_b_budget_capture.csv');qt=pd.read_csv(SD/'panel_c_conditional_quantiles.csv');sets=pd.read_csv(SD/'panel_d_disjoint_intersections.csv');release=stats.release_sha256.iloc[0]
+for code in 'HLP':
+    chosen=u['selected_'+code].to_numpy(bool);u['captured_FN_'+code+'_km2']=u.fn_m2/1e6*chosen;u['residual_FN_'+code+'_km2']=u.fn_m2/1e6*(~chosen)
+u.to_csv(SD/'review_units.csv.gz',index=False)
+rows=[];summary=[]
+for region,q in u.groupby('region',sort=False):
+    a=stats[stats.region==region].iloc[0];line=dict(region=region,units=len(q),valid_area_km2=a.valid_area_km2,zero_FN_area_pct=100*a.zero_FN_area_fraction,entropy_FN_rank_association=a.entropy_FN_weighted_midrank_correlation,learned_FN_rank_association=a.risk_FN_weighted_midrank_correlation,highest_risk_decile_zero_FN_area_pct=100*qt[(qt.region==region)&qt.risk_decile.eq(10)].zero_FN_area_fraction.iloc[0],L_exclusive_selected_area_km2=sets[(sets.region==region)&sets.intersection_id.eq(2)].valid_area_km2.iloc[0],L_exclusive_FN_km2=sets[(sets.region==region)&sets.intersection_id.eq(2)].fn_area_km2.iloc[0],release_sha256=release)
+    for code,policy in [('H','mean_entropy'),('L','learned_omission_density'),('P','fn_probability_density')]:
+        r=b[(b.region==region)&b.policy.eq(policy)&b.budget_fraction.eq(.1)].iloc[0];line[code+'_capture_percent_at_10']=100*r.capture_fraction;chosen=q['selected_'+code].to_numpy(bool);rows.append(dict(region=region,code=code,policy=policy,selected_units=int(chosen.sum()),selected_valid_area_km2=q.cost_m2[chosen].sum()/1e6,captured_FN_km2=q.fn_m2[chosen].sum()/1e6,residual_FN_km2=q.fn_m2[~chosen].sum()/1e6,release_sha256=release))
+    summary.append(line)
+pd.DataFrame(rows).to_csv(SD/'panel_d_recovered_set_totals.csv',index=False);pd.DataFrame(summary).to_csv(SD/'key_findings.csv',index=False)
+rules=json.loads((SD/'analysis_rules.json').read_text());rules['density_rendering']=dict(norm='log',min_km2_per_bin=.0001,max_km2_per_bin=10000,zero_area_bin='transparent',color_encoding='Area per specified bin; not probability density per unit of axis range',panel_c_y_display='symlog: linear 0 to .001, logarithmic above .001; linscale .8',panel_a_low_H_definition='Weighted entropy midrank <=0.5; fraction of total FN area in these units')
+(SD/'analysis_rules.json').write_text(json.dumps(rules,indent=2),encoding='utf-8')
+environment=dict(python=sys.version,platform=platform.platform(),packages={k:v for k,v in [('numpy',np.__version__),('pandas',pd.__version__),('matplotlib',matplotlib.__version__),('scipy',scipy.__version__),('Pillow',PIL.__version__),('pyproj',pyproj.__version__)]},fonts=['Times New Roman','Arial'],additional_installations=False)
+(AS/'environment.json').write_text(json.dumps(environment,indent=2),encoding='utf-8')
+report=['# Fig05 numerical findings','', 'Fixed Value Gate, seed 17; primary budget 10% of common-valid geographical area; ideal correction of whole selected 64 × 64 units. All new unit-distribution, intersection and window analyses are exploratory descriptions of frozen outputs.','', '| Region | H capture | L capture | P capture | Weighted rank ρ(H,D) | Weighted rank ρ(L,D) | Zero-FN area in highest L decile |','|---|---:|---:|---:|---:|---:|---:|']
+for r in summary:report.append(f"| {r['region']} | {r['H_capture_percent_at_10']:.2f}% | {r['L_capture_percent_at_10']:.2f}% | {r['P_capture_percent_at_10']:.2f}% | {r['entropy_FN_rank_association']:.3f} | {r['learned_FN_rank_association']:.3f} | {r['highest_risk_decile_zero_FN_area_pct']:.2f}% |")
+report+=['','The learned score behaves differently across the two regions: its weighted rank association is positive in Beijing–Baoding and near zero, slightly negative in Harbin. Harbin’s highest-score decile contains predominantly zero-FN units. This score–outcome mismatch accompanies the observed low capture; the figure does not identify a causal training or domain-shift mechanism.','']
+for r in summary:report.append(f"- {r['region']}: the L-only intersection (outside both H and P) covers {r['L_exclusive_selected_area_km2']:.3f} km² and contains {r['L_exclusive_FN_km2']:.6f} km² of initial FN.")
+report+=['','All eight learned-minus-simple-ranking FN/FP contrasts are positive and their saved simultaneous 95% intervals lie above zero. The intervals are within-region spatial-composition uncertainty, conditional on the fitted models and selections; the two regions are part of the 2023 core test.','', 'The geographic atlas deliberately includes outcome-selected extrema in both directions. Harbin has an L-favouring local window with 0.008520 km² of exclusively recovered FN; this local example is retained alongside the much larger aggregate deficit. Native pixels, all candidates and exact selection masks are provided.','', 'The risk head was trained from full-system event-held-out maps. Its own independent development OOF risk predictions are unavailable in the saved outputs; all panel-c diagnostics use the frozen core test. The unmasked sigmoid array is multiplied by the fixed-map predicted-negative mask before unit aggregation.','', 'Density colours denote km² per fixed bin, so bin sizes and log/symlog transformations matter. Conditional quartiles use positive-FN units; separate source columns provide each risk decile’s zero-FN valid-area mass. Weighted midranks keep exact ties together.','',f'Release SHA256: `{release}`.']
+(OUT/'Fig05_findings.md').write_text('\n'.join(report)+'\n',encoding='utf-8');print(json.dumps(summary,indent=2))

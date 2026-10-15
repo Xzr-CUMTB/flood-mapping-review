@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "original_release_sha256": "093a72b5ad047aa885d05b382e697192849305165ab63b226f33c1d9160ff242",
+  "frozen_files": 142,
+  "training_checkpoint_rechecks": 38,
+  "prediction_arrays_rehashed": 13,
+  "original_samples": 21483,
+  "retained_samples": 17019,
+  "development_samples": 8786,
+  "core_samples": 8233,
+  "development_groups": {
+    "2020_flood_season": 2949,
+    "2021_Henan": 5022,
+    "2024_April": 476,
+    "2024_June": 339
+  },
+  "verification": "Whole-file streaming hashes plus original read-only checkpoint auditor; original audit/config/source files not rewritten"
+}

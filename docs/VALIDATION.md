@@ -1,31 +1,34 @@
-# Code-export validation
+# Validation of the publication candidate
 
-Checks were run on 2026-10-15 using the existing Windows Python 3.9 main
-environment against the **exported code directory**. No new research training or
-core-data inference was performed. A clean-machine dependency installation was
-not exercised.
+Actual frozen study data were used for the following checks. Synthetic software
+fixtures are separate from research results and are not in the replication package.
 
 | Check | Observed result |
 | --- | --- |
-| Python AST parsing | All 46 Python files parsed |
-| Local module closure | No missing `models`, `experiments` or `scripts` modules |
-| Export provenance | All 61 copied source/configuration file hashes matched the export manifest |
-| Scientific implementation preservation | All copied model and experiment modules byte-identical to the original source |
-| `verify_evaluation_arithmetic.py` | Passed 12 groups of arithmetic/selection/calibration/interval checks |
-| `verify_evaluation_integration.py` | Passed; 16 prediction variants, 1,824 budget rows and 24 simultaneous-interval rows |
-| `verify_frozen_evaluator_io.py` | Passed; six synthetic 256×256 patches, 32 map rows, 12 operating-point rows and 96 router-unit rows |
+| Original integrity | 142 frozen file hashes, 38 checkpoint audits and 13 prediction-array hashes rechecked |
+| Sample accounting | 21,483 original; 17,019 retained; 8,786 development; 8,233 frozen core |
+| Main numerical claims | All eight printed effects reproduce from unrounded evaluation CSVs |
+| SI numerical cells | 398 cells checked; two S7 final-decimal corrections documented with original transcription preserved |
+| Evaluation | 32 map rows, 1,824 budget rows and 456 packed selection sets match |
+| Spatial intervals | 480 map + 144 review pointwise + 24 simultaneous rows rebuilt; maximum numeric error 0.0 in the recorded environment |
+| Models | All 13 tensor-only final states equal original tensors and load strictly into their architectures (11 main, 2 foundation) |
+| Figures | All 16 regenerated 1200-dpi RGB TIFF files have the original complete-file SHA-256 |
 
-The arithmetic checks include independent scikit-learn comparisons, invalid
-support exclusion, stable ties and variable-cost budget skipping, whole-unit area
-integration, temperature decision invariance, ensemble uncertainty, weighted
-operating points, and paired spatial resampling.
+Machine-readable evidence is supplied in the separate data package's validation/
+directory. Clean-clone verification and payload/archive hashes are recorded in
+the publication QA report; these describe the tested commit and local archives.
 
-Test scripts are supplied so the checks can be repeated after installation.
-Generated test reports and synthetic fixture arrays are ignored by Git. Synthetic
-fixtures are explicitly labelled and must not be used as study evidence.
+## Verification scope
 
-The source/configuration export changes one existing file:
-`run_core_completion.py` no longer invokes project-dashboard/status generation.
-Its training, freezing, prediction and numerical evaluation stages are retained.
-The fresh-checkout setup helper is new packaging code, separate from the
-scientific model and evaluation implementation.
+The replication package preserves original bootstrap endpoint tables and rebuilds
+intervals from patch/unit contributions with the original algorithm and seed.
+Original bootstrap draw arrays were not persisted; this release does not claim
+to recover them from confidence limits. Average precision needs pixel-level
+predictions and is preserved rather than independently recomputed from sufficient
+statistics. Full GPU inference, all 38 fits, and a clean-machine dependency
+installation were not repeated for this packaging task.
+
+The Harvard deposit, remote checksums, DOI assignment, anonymous download and
+public data access remain pending at the authors' request. Local archive tests
+are not represented as Dataverse upload or download tests. The original Word
+Table S7 still needs the two documented decimal corrections synchronized.
