@@ -36,3 +36,9 @@ Thumbs.db
 *.pth
 *.npy
 *.npz
+
+# Replication inputs and generated publication outputs
+/replication_data/
+/reproduction_outputs/
+*.tar.gz
+*token*.txt

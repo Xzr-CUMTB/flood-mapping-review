@@ -1,0 +1,98 @@
+[
+  {
+    "file": "figure_data/S03/source_data/omission_supervision.json",
+    "original_sha256": "d990f9d9436909abec803ef3160aa5ab866bf4b17eea92030c98acb014ed07a8",
+    "public_sha256": "ffcada538a9fb27e33b950a8cfc5280769c1fac8867aed509f74658ea25c648e",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/dev_terramind_s17/config.json",
+    "original_sha256": "9c8457ef07df4b981be5971e61dde979bd2b84ae8920b1af6f736afe780c0e0b",
+    "public_sha256": "4cdec16522d3ae5729eae4b36a66fed3273dbac1004e06b46f3915c1c4e0f903",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/final_s17_ordinary_gate/config.json",
+    "original_sha256": "2396893450ad42e000f6ccb783a2423263c9c29957d1bd0b1652198efb0a5550",
+    "public_sha256": "66d1c2e3d7cf741022cf6783796ddaea0514c646ddc5641965f628aba2691625",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/final_s17_risk/config.json",
+    "original_sha256": "5f07f9eaa8f5af9b08da4dd7bf83afecbed9ddbbe6f1e490a254c19d451336dd",
+    "public_sha256": "39b6b467a272d61cd944600be52311174292fda02c0ee26f4bd466a574f2d53d",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/final_s17_stacker/config.json",
+    "original_sha256": "20defd69e7736c7c93cee9dcde818d214d74ed744c5cfdb8268ea9e5b84cb814",
+    "public_sha256": "dde4f8e494a750c21234275ad305b6085c7c33d7727ddba47d56299d4337874e",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/final_s17_value/config.json",
+    "original_sha256": "56b2d29b47ebfe061a43711dcedfbbe9434af5f6c4d421e0b2feb473bf290ed6",
+    "public_sha256": "452f477aa5f4715abdfc9085355884ca7ecf3dec1e385170c2230a016cec7407",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/final_terramind_s17/config.json",
+    "original_sha256": "e978a51c775ee0956ab0d04f4032833d858859b397d6b713d4ee4fd1eb853589",
+    "public_sha256": "0a5bb1268807ac8d98783e7f59f2a71b79866b1a0264e2fe07f96d59d15f8c22",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/nested_s17_outer0_value/config.json",
+    "original_sha256": "121ae4b3d5c99da200ca43298afb89648b77b3aaaca4c708c486c77376ea29b7",
+    "public_sha256": "15b56c0bdf0ec0ffeb59c4cc93c02e75b4f5819b885369acc074fb4ade6f0795",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/nested_s17_outer1_value/config.json",
+    "original_sha256": "03918cd627584a0aaa5e364b5f23ac66bb624ffd607a5c6b08da27af2673cc83",
+    "public_sha256": "bbde5b6a949cad64440810b4a1b509dacd336754d44c210ad3b376cbc7fc817d",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/nested_s17_outer2_value/config.json",
+    "original_sha256": "f76f7f768cadc6b4159b39b85065777a31da344f66a275c4c7a8a7b844e85619",
+    "public_sha256": "de1fa49f39b3a3dc6bb1d5ffec67acb096d3bb485535845932f9082d31322105",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "training_records/nested_s17_outer3_value/config.json",
+    "original_sha256": "6798e5a75365a4d80a6a5082b4744e83de115ca27a2dc52a44e73476f0c0b092",
+    "public_sha256": "009df70f3ce6de76f11b74661226c118bf2a2c100ac8a04c72cf4d4bc42db567",
+    "change": "Absolute project-specific path strings replaced with project-relative paths; numerical data unchanged"
+  },
+  {
+    "file": "paper_figures/supplementary/S06/scripts/derive_batch.py",
+    "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
+    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
+    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+  },
+  {
+    "file": "paper_figures/supplementary/S07/scripts/derive_batch.py",
+    "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
+    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
+    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+  },
+  {
+    "file": "paper_figures/supplementary/S08/scripts/derive_batch.py",
+    "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
+    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
+    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+  },
+  {
+    "file": "paper_figures/supplementary/S09/scripts/derive_batch.py",
+    "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
+    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
+    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+  },
+  {
+    "file": "paper_figures/supplementary/S10/scripts/derive_batch.py",
+    "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
+    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
+    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+  }
+]

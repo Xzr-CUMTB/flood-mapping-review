@@ -1,0 +1,8 @@
+# Exact observed redraw stack; Python 3.9. No GPU or PyTorch needed for levels 1/2.
+numpy==1.26.3
+pandas==2.2.3
+scipy==1.13.1
+matplotlib==3.9.2
+Pillow==11.0.0
+pyproj==3.6.1
+requests>=2.31,<3

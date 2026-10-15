@@ -11,8 +11,7 @@ were removed. Training, inference, numerical reports and completion checks remai
 
 New files provide documentation, dependency specifications, ignore rules and a
 `release_setup.py` helper for a fresh checkout. The unused initial value-head
-prototype, exploratory diagnostics, download monitors, figure generators and
-manuscript tools were not exported.
+prototype, exploratory diagnostics, download monitors, manuscript tools were not exported in the initial code release. Publication figure code is added on this branch.
 
 `original_core_release_s17.json` is the historical release record. It binds data,
 weights and source snapshots that are not in this repository. Its file SHA-256 is
@@ -36,3 +35,20 @@ different storage layout; do not modify the frozen experimental selection protoc
 not change through automatic line-ending conversion. Numerical reproducibility
 still depends on dependencies, hardware, preprocessing and training. The selected
 observed dependencies are not a complete historical training environment lock.
+
+## Publication candidate additions
+
+The publication branch adds the 102 figure-code files listed in
+`provenance/figure_code_manifest.json`; each records original and public hashes.
+Five historical derivation programs had unused private task-brief copying lines
+removed. The original renderers and all numerical derivations remain unchanged.
+The original model/experiment modules are unchanged from the initial source export.
+
+`publication/evaluation_core.py` contains exact AST-extracted original functions;
+the extraction hashes are in `publication_evaluator_extraction.json`. Its imports
+and output wrapper run on frozen sufficient statistics without requiring GPU
+libraries. Actual interval outputs were compared numerically with the originals.
+Absolute project paths in public JSON copies become relative paths; the payload
+records these changes and separate source/public file hashes. All original
+experiment and manuscript files remain untouched. The S7 transcription corrections
+are explicit publication-table changes, not modifications of frozen results.

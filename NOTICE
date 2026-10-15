@@ -1,0 +1,15 @@
+Flood mapping and budgeted review
+Copyright 2026 Mengchen Sun, Zirui Xu, Pengpeng Hao, Peiyao Wu and Bixing Zhang.
+
+This research software accompanies "Limited review reverses model rankings in satellite flood mapping".
+The original authors' contributions are licensed under Apache License 2.0.
+
+TerraMind 1.0 tiny is developed by IBM, ESA and Forschungszentrum Jülich and is
+distributed separately under Apache-2.0. The repository contains an adaptation
+interface, not the upstream pretrained checkpoint or framework source.
+Upstream: https://github.com/IBM/terramind
+Checkpoint: https://huggingface.co/ibm-esa-geospatial/TerraMind-1.0-tiny
+
+Sen2GF3Floods V2 data and its derivatives retain CC BY 4.0 attribution to their
+original creators. See THIRD_PARTY_NOTICES.md and the replication dataset's rights
+documentation. Third-party licences are not replaced by this software licence.

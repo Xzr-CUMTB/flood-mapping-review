@@ -58,3 +58,18 @@ HISEA water data and the China event catalogue were investigated in the broader
 project but are not inputs to this frozen main computational batch. Their
 downloaders and archives are therefore not included. Event catalogues are not
 pixel reference labels.
+
+## Publication replication dataset
+
+The separate local package contains figure_data (16 figures, 82 panels), eleven
+SI tables, evaluation sufficient statistics, all 1,824 budget results, 456 actual
+primary selection masks, the original interval outputs, thirteen tensor-only
+final model states and training provenance. Metadata include FILE_MANIFEST.csv,
+CHECKSUMS_SHA256.txt, DATA_DICTIONARY.csv and PANEL_DATA_INDEX.csv.
+Study-generated data use CC BY 4.0; model states use Apache-2.0 and retain upstream
+notices. No imagery, model binaries or replication archives are committed to Git.
+
+Harvard Dataverse creation and upload were deferred on 15 October 2026. The
+replication dataset therefore has no Dataverse URL, DOI, remote file IDs or
+verified remote downloads. Use `publication.prepare_data` with local archives.
+Formal dataset citation and public-download checks follow the actual deposit.

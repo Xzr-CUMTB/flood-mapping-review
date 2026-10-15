@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated replication dataset when using the study workflow."
+title: "Limited review reverses model rankings in satellite flood mapping: research software"
+type: software
+authors:
+  - family-names: Sun
+    given-names: Mengchen
+    affiliation: "University of Emergency Management"
+  - family-names: Xu
+    given-names: Zirui
+    affiliation: "China University of Mining and Technology (Beijing)"
+  - family-names: Hao
+    given-names: Pengpeng
+    affiliation: "Capital University of Economics and Business"
+  - family-names: Wu
+    given-names: Peiyao
+    affiliation: "University of Emergency Management"
+  - family-names: Zhang
+    given-names: Bixing
+    affiliation: "National Institute of Natural Hazards, Ministry of Emergency Management of China"
+repository-code: "https://github.com/Xzr-CUMTB/flood-mapping-review"
+url: "https://github.com/Xzr-CUMTB/flood-mapping-review"
+license: Apache-2.0
+version: "publication-candidate-1"
+keywords:
+  - flood mapping
+  - optical-SAR fusion
+  - budgeted review
+  - omission error
+  - reproducibility

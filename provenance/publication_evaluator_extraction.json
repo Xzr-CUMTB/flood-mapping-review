@@ -1,0 +1,14 @@
+{
+  "original_file": "experiments/evaluate_frozen_core.py",
+  "original_sha256": "37d067a4a16b065bc84962a3922decac98df004182dc3e812fde696c91630748",
+  "extracted_functions": [
+    "group_sums",
+    "uncertainty_rows",
+    "evaluate_review"
+  ],
+  "bodies_sha256": [
+    "adc0f67164f0807062948910ca275d89d9c308fabedd668b1587003653c7c754",
+    "73d919a2aec561bf8d7057ab83fc5706a7b40ec8de27ac38f0c75f7bec005036",
+    "56edd4059c3fcb2b727547d36f8eb9566e42c2d85a246188fd2b0d41a3d9e4c9"
+  ]
+}
