@@ -45,6 +45,19 @@ def verify(data,out):
         if not sources:failures.append(dict(file=row.figure+':'+row.panel,error='No panel data'))
         for name in sources:
             if not (data/'figure_data'/row.figure/'source_data'/name).is_file():failures.append(dict(file=row.figure+':'+row.panel,error='Missing '+name))
+    expected={entry['path'] for entry in manifest}|{'FILE_MANIFEST.csv','CHECKSUMS_SHA256.txt'}
+    actual={p.relative_to(data).as_posix() for p in data.rglob('*') if p.is_file()}
+    if expected!=actual:failures.append(dict(file='FILE_MANIFEST.csv',error='Unexpected or missing payload files',extra=sorted(actual-expected),missing=sorted(expected-actual)))
+    for line in (data/'CHECKSUMS_SHA256.txt').read_text(encoding='utf-8').splitlines():
+        digest,name=line.split('  ',1);path=data/name
+        if not path.resolve().is_relative_to(data) or sha(path)!=digest:failures.append(dict(file=name,error='Checksum-text mismatch'))
+    for entry in json.loads((data/'COPY_PROVENANCE.json').read_text(encoding='utf-8')):
+        if sha(data/entry['path'])!=entry['sha256']:failures.append(dict(file=entry['path'],error='Copy-provenance public hash mismatch'))
+    repo=Path(__file__).resolve().parents[1]
+    for entry in json.loads((data/'METADATA_SANITIZATION.json').read_text(encoding='utf-8')):
+        base=repo if entry['file'].startswith('paper_figures/') else data
+        path=base/entry['file']
+        if not path.resolve().is_relative_to(base.resolve()) or sha(path)!=entry['public_sha256']:failures.append(dict(file=entry['file'],error='Metadata-change public hash mismatch'))
     result=dict(passed=not failures,files_verified=len(checked),manifest_files=len(manifest),figures=len(names),panels=len(index),failures=failures,
                 scope='Actual research payload; synthetic fixtures excluded. SHA256 does not imply repository publication.')
     (out/'payload_verification.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')

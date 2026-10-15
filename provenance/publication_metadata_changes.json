@@ -68,31 +68,31 @@
   {
     "file": "paper_figures/supplementary/S06/scripts/derive_batch.py",
     "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
-    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
-    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+    "public_sha256": "38509b7fe0d94e19e68670cf0102540f9c47b0f2b25b9ea0293e39c17ea0084e",
+    "change": "Removed unused private task-brief copying statement and attachment identifiers; numerical derivation and rendering unchanged"
   },
   {
     "file": "paper_figures/supplementary/S07/scripts/derive_batch.py",
     "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
-    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
-    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+    "public_sha256": "38509b7fe0d94e19e68670cf0102540f9c47b0f2b25b9ea0293e39c17ea0084e",
+    "change": "Removed unused private task-brief copying statement and attachment identifiers; numerical derivation and rendering unchanged"
   },
   {
     "file": "paper_figures/supplementary/S08/scripts/derive_batch.py",
     "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
-    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
-    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+    "public_sha256": "38509b7fe0d94e19e68670cf0102540f9c47b0f2b25b9ea0293e39c17ea0084e",
+    "change": "Removed unused private task-brief copying statement and attachment identifiers; numerical derivation and rendering unchanged"
   },
   {
     "file": "paper_figures/supplementary/S09/scripts/derive_batch.py",
     "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
-    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
-    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+    "public_sha256": "38509b7fe0d94e19e68670cf0102540f9c47b0f2b25b9ea0293e39c17ea0084e",
+    "change": "Removed unused private task-brief copying statement and attachment identifiers; numerical derivation and rendering unchanged"
   },
   {
     "file": "paper_figures/supplementary/S10/scripts/derive_batch.py",
     "original_sha256": "9ce3fe3233ada4fb37622ddf00aa986fd1c263be0592911cf309635aae50d6b0",
-    "public_sha256": "47066621b51f26ca96388572d8f3a56813f620eaaa320368f122f3ae7c4eda1a",
-    "change": "Removed private task-brief copying line; no numerical derivation or rendering changed"
+    "public_sha256": "38509b7fe0d94e19e68670cf0102540f9c47b0f2b25b9ea0293e39c17ea0084e",
+    "change": "Removed unused private task-brief copying statement and attachment identifiers; numerical derivation and rendering unchanged"
   }
 ]
